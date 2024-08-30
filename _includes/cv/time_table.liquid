@@ -8,7 +8,7 @@
               <tbody>
                 <tr>
                   <td>
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 100px">
                       {{- content.year -}}
                     </span>
                   </td>
@@ -27,18 +27,15 @@
             </table>
           </div>
         {% endif %}
-        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0" style="padding:0;">
           {% if content.title %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.title }}</h6>
+            <h6 class="title font-weight-bold ">{{ content.title }}</h6>
           {% endif %}
           {% if content.department or content.institution %}
-            <table class="table-cv ml-1 ml-md-4 institution">
+            <table class="table-cv ">
               <tbody>
                 {% if content.institution %}
                   <tr>
-                    <td style="vertical-align: top; text-align: center" class="institution">
-                      <i class="fa-solid fa-building-columns iconinstitution"></i>
-                    </td>
                     <td class="institution">{{ content.institution }}</td>
                   </tr>
                 {% endif %}
@@ -54,10 +51,10 @@
             </table>
           {% endif %}
           {% if content.maindescription %}
-            <div class="ml-1 ml-md-4">{{ content.maindescription }}</div>
+              <div><{{ content.maindescription }}</div>
           {% endif %}
           {% if content.description %}
-            <ul class="items">
+            <ul class="items" style="padding-left:20px;">
               {% for item in content.description %}
                 <li>
                   {% if item.contents %}

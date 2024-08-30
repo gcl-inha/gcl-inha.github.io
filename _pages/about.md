@@ -1,25 +1,21 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<b>Generative Computing Lab (GCL)</b> at Inha University aims to advancing Generative AI (Gen AI) that can make a significant impact on our world.
+Harnessing the power of Gen AI, we focuse on (but is not limited to) the following areas:
+- <b style="color:#005bac">Gen AI + X</b>: We explore how Gen AI can transform across various domains in our world. We believe Gen AI can drive innovation across industries, from traditional to emerging fields, paving the way for groundbreaking advancements.
+- <b style="color:#005bac">Creative Gen AI</b>: We develop Gen AI-based frameworks that empower non-experts to engage in creative work across media, art, and beyond. Gen AI is revolutionizing productivity in creative design and we strive to ensure that these benefits are accessible to everyone, including everyday users (like me!).
+- <b style="color:#005bac">Ethical Gen AI</b>: We study the societal implications of Gen AI, aiming to develop ethical solutions that address and mitigate current concerns regarding the malicious use of this technology
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+We are seeking passionate graduate students (or undergraduate interns) who are interested with our goals. If you’re interested, please see the [Contact](./contact) page for more details.

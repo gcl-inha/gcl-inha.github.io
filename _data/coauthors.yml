@@ -1,34 +1,65 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Ahn":
+  - firstname: ["Namhyuk"]
+    url: https://nmhkahn.github.io
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Kwon":
+  - firstname: ["Patrick"]
+    url: https://scholar.google.com/citations?user=XRKA-DkAAAAJ
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Back":
+  - firstname: ["Jihye"]
+    url: https://scholar.google.com/citations?user=LmU3mCgAAAAJ
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Hong":
+  - firstname: ["Kibeom"]
+    url: https://scholar.google.com/citations?user=-imqSqoAAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Lee":
+  - firstname: ["Junsoo"]
+    url: https://ssuhan.github.io/
+  - firstname: ["Pilhyeon"]
+    url: https://pilhyeon.github.io
+  - firstname: ["Chunggi"]
+    url: https://chungyi347.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Kim":
+  - firstname: ["Daesik"]
+    url: https://scholar.google.com/citations?user=YUcWWbEAAAAJ
+  - firstname: ["Jangho"]
+    url: https://sites.google.com/view/ml-pr
+  - firstname: ["Sungnyun"]
+    url: https://bit.ly/sungnyunkim
+  - firstname: ["Kunhee"]
+    url: https://kunheekim.xyz
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Sohn":
+  - firstname: ["Kyung-Ah"]
+    url: https://sites.google.com/site/kasohn/home
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Kang":
+  - firstname: ["Byungkon"]
+    url: https://sites.google.com/view/byungkon/home
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Yoo":
+  - firstname: ["Jaejun"]
+    url: https://sites.google.com/view/jaejunyoo
+
+"Jeon":
+  - firstname: ["Seogkyu"]
+    url: https://scholar.google.com/citations?user=w-byizkAAAAJ
+
+"Uh":
+  - firstname: ["Youngjung"]
+    url: https://vilab.yonsei.ac.kr
+
+"Byun":
+  - firstname: ["Hyeran"]
+    url: http://cvpr.yonsei.ac.kr/main
+
+"Nam":
+  - firstname: ["Seung-Hun"]
+    url: https://scholar.google.com/citations?user=QIjkOgEAAAAJ
+
+"Moon":
+  - firstname: ["Jeong-Hyeon"]
+    url: https://scholar.google.co.kr/citations?user=Gqw3HVIAAAAJ
