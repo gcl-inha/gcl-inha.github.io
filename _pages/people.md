@@ -7,10 +7,5 @@ nav: true
 nav_order: 2
 ---
 
-#### [Professor]
+### Professor
 [Namhyuk Ahn](https://nmhkahn.github.io)
-
-
-#### [Graduate Students]
-
-#### [Interns]
