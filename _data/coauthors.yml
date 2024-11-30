@@ -4,12 +4,6 @@
   - firstname: ["Wonhyuk"]
     url: https://scholar.google.com/citations?user=SvpXOqsAAAAJ
 
-
-"Yoo":
-  - firstname: ["KiYoon"]
-    url: https://scholar.google.co.kr/citations?user=S93OUYQAAAAJ
-
-
 "Kwon":
   - firstname: ["Patrick"]
     url: https://scholar.google.com/citations?user=XRKA-DkAAAAJ
@@ -51,6 +45,8 @@
 "Yoo":
   - firstname: ["Jaejun"]
     url: https://sites.google.com/view/jaejunyoo
+  - firstname: ["KiYoon"]
+    url: https://scholar.google.co.kr/citations?user=S93OUYQAAAAJ
 
 "Jeon":
   - firstname: ["Seogkyu"]
