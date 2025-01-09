@@ -12,4 +12,3 @@ nav_order: 2
 
 ### MS Students
 Minsuk Ji (지민석)<br>
-Chan-yeon Byun (변찬연)<br>
