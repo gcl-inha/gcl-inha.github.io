@@ -8,4 +8,8 @@ nav_order: 2
 ---
 
 ### Professor
-[Namhyuk Ahn](https://nmhkahn.github.io)
+[Namhyuk Ahn](https://nmhkahn.github.io) (안남혁)
+
+### MS Students
+Minsuk Ji (지민석)<br>
+Chan-yeon Byun (변찬연)<br>
