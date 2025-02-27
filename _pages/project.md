@@ -22,6 +22,21 @@ nav_order: 5
     border-radius: 4px; /* 모서리 둥글게 (선택사항) */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* 특정 해상도 이하일 때 (예: 768px 이하) */
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column; /* 이미지가 위로 가도록 변경 */
+        align-items: flex-start; /* 텍스트를 왼쪽 정렬 */
+    }
+
+    .project img {
+        width: 100%; /* 이미지가 부모 요소 너비에 맞게 */
+        max-width: 250px; /* 최대 크기 제한 */
+        height: auto; /* 높이 자동 조정 */
+    }
+}
+
 </style>
 
 ### Current Projects
