@@ -25,7 +25,7 @@ nav_order: 5
 </style>
 
 ### Current Projects
-<div class="project">
+<div class="project" style="margin-top: 30px;">
     <img src="assets/funds/genai.png">
     <div>
         <strong>[참여] 산업융합형 멀티모달 생성인공지능 인재양성사업</strong><br>
