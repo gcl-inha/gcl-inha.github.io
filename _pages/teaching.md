@@ -21,3 +21,6 @@ Fall 2024<br>
 ### Graduate Courses
 <strong>Vision-Language Models</strong><br>
 Spring 2025<br>
+
+<strong>Multimodal AI</strong><br>
+Spring 2025<br>
