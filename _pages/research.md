@@ -13,10 +13,18 @@ Upon this, our lab revolves around four main research themes toward this goal:
 
 ---
 
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 0.85; margin-right: 40px;">
 
-<mark style="background-color:#D50000; padding: 1px 4px; color:white; border-radius: 7px">Gen AI + X</mark> We aim to enhance productivity across various industries by applying Gen AI technologies. Our research focuses on empowering domain experts with specialized workflows to effectively utilize Gen AI models in their respective fields. For this research theme, this involves improving the <strong>controllability of Gen AI systems</strong> and ensuring they provide <strong>reliable and trustworthy outputs</strong>. By addressing these challenges, we can tailor Gen AI solutions to diverse domains such as manufacturing, healthcare, and more.
+  <mark style="background-color:#D50000; padding: 1px 4px; color:white; border-radius: 7px">Gen AI + X</mark> We aim to enhance productivity across various industries by applying Gen AI technologies. Our research focuses on empowering domain experts with specialized workflows to effectively utilize Gen AI models in their respective fields. For this research theme, this involves improving the <strong>controllability of Gen AI systems</strong> and ensuring they provide <strong>reliable and trustworthy outputs</strong>.
+    By addressing these challenges, we can tailor Gen AI solutions to diverse domains such as manufacturing, healthcare, and more.
+  </div>
+  <!-- 이미지 영역 -->
+  <div>
+    {% include figure.liquid loading="eager" path="assets/research/genaix.png" width="160px" text-align="center" class="img-fluid" %}
+  </div>
+</div>
 
-{% include figure.liquid loading="eager" path="assets/research/genaix.png" width="300px" text-align="center" class="img-fluid" %}
 
 
 ---
@@ -42,8 +50,17 @@ Example research areas include 1) protecting intellectual property rights of cre
 
 ---
 
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 0.85; margin-right: 40px;">
 <mark style="background-color:#AA00FF; padding: 1px 4px; color:white; border-radius: 7px">Evaluation for Gen AI</mark>
 To ensure the responsible and effective advancement of Gen AIs, establishing <strong>robust evaluation</strong> protocols is essential. Our research emphasizes the development and refinement of evaluation metrics that assess Gen AI models on effectiveness, reliability, and ethical considerations. By implementing comprehensive evaluation frameworks, we can guide Gen AI development in the right direction. To do so, Gen AI not only meet performance objectives but also adhere to ethical guidelines and foster user trust.
+<br/>
+
+</div>
+<div>
+{% include figure.liquid loading="eager" path="assets/research/eval.png" width="160px" text-align="center" class="img-fluid" %}
+</div>
+</div>
 
 Example research areas include 1) developing metrics for assessing the quality and authenticity of Gen AI outputs, 2) evaluating the reliability and robustness of Gen AI models in various applications, 3) assessing ethical implications and biases in Gen AI-generated content, and 4) creating standardized evaluation protocols for Gen AI across different domains.
 
