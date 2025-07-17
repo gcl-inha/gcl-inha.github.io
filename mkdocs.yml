@@ -1,0 +1,51 @@
+site_name: Generative Computing Lab
+site_url: https://gcl-inha.github.io
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  font:
+    text: Montserrat
+  primary: custom
+  logo: assets/logo_gcl_white.png
+  favicon: assets/logo_gcl.png
+
+nav:
+  - Home: index.md
+  - People: people.md
+  - Research: research.md
+  - Publications: publications.md
+  - Projects: projects.md
+  - Contact: contact.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+plugins:
+  - macros:
+      include_yaml:
+        - people: data/people.yml
+        - publications: data/publications.yml
+        - research_highlights: data/research_highlights.yml
+        - news: data/news.yml
+        - projects: data/projects.yml
+
+copyright: Copyright &copy; 2025 -  Generative Computing Lab at Inha University

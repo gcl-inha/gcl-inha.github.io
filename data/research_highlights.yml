@@ -1,0 +1,40 @@
+- key: cvpr2025a
+  title: "Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models"
+  venue: CVPR 2025
+  desc: An ultra-fast method to protect images against mimicry attempts from personalized diffusion models.
+  link: https://webtoon.github.io/impasto/
+- key: aaai2024a
+  title: "DreamStyler: Paint by Style Inversion with Text-to-Image Diffusion Models"
+  venue: AAAI 2024
+  desc: An innovative approach to image generation that leverages textual inversion within text-to-image diffusion models.
+  link: https://nmhkahn.github.io/dreamstyler
+- key: arxiv2023b
+  title: "DiffBlender: Scalable and Composable Multimodal Text-to-Image Diffusion Models"
+  venue: arXiv preprint
+  desc: A novel framework for blending multiple modalities in text-to-image diffusion models.
+  link: https://sungnyun.github.io/diffblender
+- key: iccv2023a
+  title: "AesPA-Net: Aesthetic Pattern-Aware Style Transfer Networks"
+  venue: ICCV 2023
+  desc: Aesthetic pattern-aware style transfer networks for high-quality image synthesis.
+  link: https://github.com/Kibeom-Hong/AesPA-Net
+- key: cvpr2023a
+  title: "Interactive Cartoonization with Controllable Perceptual Factors"
+  venue: CVPR 2023
+  desc: An interactive way of cartoonization that allows for the manipulation of perceptual factors.
+  link: https://arxiv.org/abs/2212.09555
+- key: satc2022a
+  title: "WebtoonMe: A Data-Centric Approach for Full-Body Portrait Stylization"
+  venue: SIGGRAPH Asia TC 2022
+  desc: A practical approach to full-body portrait stylization.
+  link: https://webtoon.github.io/WebtoonMe/
+- key: cvpr2020a
+  title: "Rethinking Data Augmentation for Image Super-Resolution: A Comprehensive Analysis and a New Strategy"
+  venue: CVPR 2020
+  desc: A first attempt at modern data augmentation for image super-resolution.
+  link: https://github.com/clovaai/cutblur
+- key: eccv2018a
+  title: "Fast, Accurate, and Lightweight Super-Resolution With Cascading Residual Network"
+  venue: ECCV 2018
+  desc: A lightweight and efficient approach to image super-resolution.
+  link: https://github.com/nmhkahn/CARN-pytorch
