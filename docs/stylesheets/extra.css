@@ -2,10 +2,9 @@
     /* https://www.color-hex.com/ */
     --md-primary-fg-color:          #005BAC;
     --md-primary-fg-color--light:   #00AFEC;
-    
     --md-primary-fg-color--dark:    #0D001A;
+    --md-primary-bg-color: #FFFFFF;
     --md-footer-bg-color:          #005BAC;
-    --md-footer-fg-color--light:   #FFFFFF;
     --md-accent-fg-color:           #00AFEC;
 }
 
@@ -14,6 +13,10 @@
 }
 
 .md-typeset {
+    font-size: 16px;
+}
+
+.md-tabs__link {
     font-size: 16px;
 }
 
@@ -47,10 +50,6 @@
   font-weight: 600;
 }
 
-.md-footer-meta {
-    background-color: var(--md-footer-bg-color);
-}
-
 .news ul {
   margin: 0em 0 -1em 0;
 }
@@ -62,7 +61,7 @@
 /* 영어와의 간격 조절 */
 .ko {
   display: block;
-  margin-top: -0.7em;
+  margin-top: -0em;
   text-align: justify;
   line-height: 1.6;
 }
@@ -134,19 +133,6 @@
     -webkit-background-clip: padding-box;
     background-clip: padding-box
 }
-
-.btn {
-    color: var(--md-primary-fg-color--dark);
-    border: 1px solid var(--md-primary-fg-color--dark);
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: .25rem;
-    padding-bottom: .25rem;
-    margin-left: 0;
-}
-
-.btn:no
-
 
 /* projects.md */
 .project-thumbnail-cell {

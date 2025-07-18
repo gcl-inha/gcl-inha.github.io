@@ -18,7 +18,7 @@ nav:
   - Research: research.md
   - Publications: publications.md
   - Projects: projects.md
-  - Contact: contact.md
+  - Join Us: join-us.md
 
 extra_css:
   - stylesheets/extra.css

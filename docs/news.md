@@ -7,7 +7,10 @@ hide:
 # News
 
 {% for item in news %}
-- __{{ item.time }}__ {% if item.link %}<a href="{{ item.link }}" target="_blank">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+{% if loop.index <= 5 %}
+<div class="news-entry">
+  <div class="news-time">{{ item.time }}</div>
+  <div class="news-title">{{ item.title }}</div>
+</div>
+{% endif %}
 {% endfor %}
-
-<br />
