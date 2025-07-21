@@ -2,39 +2,47 @@
   title: "Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models"
   venue: CVPR 2025
   desc: An ultra-fast method to protect images against mimicry attempts from personalized diffusion models.
+  desc_ko: 개인화된 생성형 확산 모델이 이미지를 모방하지 못하도록 빠르고 효율적으로 보호하는 기술 개발
   link: https://webtoon.github.io/impasto/
 - key: aaai2024a
   title: "DreamStyler: Paint by Style Inversion with Text-to-Image Diffusion Models"
   venue: AAAI 2024
   desc: An innovative approach to image generation that leverages textual inversion within text-to-image diffusion models.
+  desc_ko: 한 장의 스타일 이미지 통해 맞춤 스타일 이미지를 생성할 수 있는 텍스트 기반 이미지 생성 모델 학습 프레임워크 개발
   link: https://nmhkahn.github.io/dreamstyler
 - key: arxiv2023b
   title: "DiffBlender: Scalable and Composable Multimodal Text-to-Image Diffusion Models"
   venue: arXiv preprint
   desc: A novel framework for blending multiple modalities in text-to-image diffusion models.
+  desc_ko: 다양한 데이터를 조합하여 보다 정교하고 풍부한 이미지를 생성할 수 있는 멀티모달 융합 프레임워크 연구
   link: https://sungnyun.github.io/diffblender
 - key: iccv2023a
   title: "AesPA-Net: Aesthetic Pattern-Aware Style Transfer Networks"
   venue: ICCV 2023
   desc: Aesthetic pattern-aware style transfer networks for high-quality image synthesis.
+  desc_ko: 이미지의 미적 요소를 인식하고 반영할 수 있는 스타일 전이 기법을 통한 고품질 이미지 합성 연구
   link: https://github.com/Kibeom-Hong/AesPA-Net
 - key: cvpr2023a
   title: "Interactive Cartoonization with Controllable Perceptual Factors"
   venue: CVPR 2023
   desc: An interactive way of cartoonization that allows for the manipulation of perceptual factors.
+  desc_ko: 사용자 컨트롤을 통해 스타일이나 색상을 조절할 수 있는 인터랙티브 만화화 시스템 설계
   link: https://arxiv.org/abs/2212.09555
 - key: satc2022a
   title: "WebtoonMe: A Data-Centric Approach for Full-Body Portrait Stylization"
   venue: SIGGRAPH Asia TC 2022
   desc: A practical approach to full-body portrait stylization.
+  desc_ko: 전신 인물 사진을 자연스럽게 웹툰 스타일로 변환하는 기술 (웹툰미)
   link: https://webtoon.github.io/WebtoonMe/
 - key: cvpr2020a
   title: "Rethinking Data Augmentation for Image Super-Resolution: A Comprehensive Analysis and a New Strategy"
   venue: CVPR 2020
   desc: A first attempt at modern data augmentation for image super-resolution.
+  desc_ko: 이미지 선명도를 높이기 위한 초해상도 기술 특화 데이터 증강 기법
   link: https://github.com/clovaai/cutblur
 - key: eccv2018a
   title: "Fast, Accurate, and Lightweight Super-Resolution With Cascading Residual Network"
   venue: ECCV 2018
   desc: A lightweight and efficient approach to image super-resolution.
+  desc_ko: 계산 자원이 제한된 환경에서도 활용 가능한 경량화된 이미지 초해상도 기술 연구
   link: https://github.com/nmhkahn/CARN-pytorch

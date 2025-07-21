@@ -1,6 +1,23 @@
 years:
   - year: 2025
     papers:
+      - name: iccvw2025a
+        key: iccvw2025a
+        title: "A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models"
+        authors:
+            - name: Hyunwook Jo
+            - name: Jiseung Maeng
+            - name: Wonhyuk Ahn
+            - name: Jun Hyung Park
+            - name: Namhyuk Ahn
+              link: https://nmhkahn.github.io
+            - name: In Kyu Park
+              link: https://sites.google.com/view/vcl-lab/home
+        venue: ICCV Workshops 2025
+        project: 
+        arXiv: 
+        img: iccvw2025a.png
+
       - name: cvpr2025a
         key: cvpr2025a
         title: "Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models"

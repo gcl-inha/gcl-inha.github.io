@@ -28,6 +28,7 @@ The Generative Computing Lab (GCL) at Inha University advances Generative AI (Ge
 <img src="assets/highlights/{{ paper.key }}.png" markdown>
 <b>{{ paper.title }} ({{ paper.venue }})</b><br>
 <span class="fg-color-dark">{{ paper.desc }}</span><br>
+<span class="fg-color-dark">{{ paper.desc_ko }}</span><br>
 </center>
 </div>
 </a>

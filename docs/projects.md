@@ -27,9 +27,9 @@ __{{ item.ko }}__
 <br>
 {{ item.en }}
 <br>
-{{ item.date }}
-<br>
 {{ item.fund }}
+<br>
+수행 기간: {{ item.date }}
 </div>
 </div>
 
