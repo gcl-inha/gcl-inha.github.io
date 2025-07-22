@@ -7,7 +7,7 @@ hide:
 # {{ config.site_name }}
 The Generative Computing Lab (GCL) at Inha University advances Generative AI (Gen AI) technologies to ensure that a wide range of people can benefit from them. We focuse on (but is not limited to) diffusion models and their applications, Gen AI + X (Gen AI for various domains) and ethical and responsible use of Gen AI.
 <div class="ko">
-인하대학교 생성 컴퓨팅 연구실은 다양한 사람들이 혜택을 누릴 수 있는 생성형 AI 기술 개발을 목표로 연구를 수행하고 있습니다. 주요 연구 분야는 확산 모델(Diffusion Models)의 응용, 생성형 AI의 다양한 도메인 적용(Gen AI + X), 그리고 생성형 AI의 윤리적이고 책임 있는 활용 방안 등이 있습니다.
+인하대학교 생성컴퓨팅 연구실은 다양한 사람들이 혜택을 누릴 수 있는 생성형 AI 기술 개발을 목표로 연구를 수행하고 있습니다. 주요 연구 분야는 확산 모델(Diffusion Models)의 응용, 생성형 AI의 다양한 도메인 적용(Gen AI + X), 그리고 생성형 AI의 윤리적이고 책임 있는 활용 방안 등이 있습니다.
 </div>
 
 <!-- Link Swiper's CSS -->
