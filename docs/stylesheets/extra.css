@@ -111,6 +111,7 @@
 
 /* publication.md */
 .publication-thumbnail-cell {
+    width: 300px;
     display: inline-table;
     padding-right: 12px;
     vertical-align: middle;
@@ -119,14 +120,14 @@
 
 .publication-description-cell {
     display: inline-table;
-    width: calc(100% - 180px) !important;
+    width: calc(100% - 310px) !important;
     width: 500px;
     vertical-align: middle;
     p { margin: 0px; line-height: 140%; }
 }
 
 .publication-thumbnail {
-    width: 160px;
+    width: 300px;
     border-radius: 8px;
     vertical-align: middle;
     -moz-background-clip: padding;
@@ -136,6 +137,7 @@
 
 /* projects.md */
 .project-thumbnail-cell {
+    width: 300px;
     display: inline-table;
     padding-right: 12px;
     vertical-align: middle;
@@ -145,15 +147,14 @@
 
 .project-description-cell {
     display: inline-table;
-    width: calc(100% - 270px) !important;
+    width: calc(100% - 310px) !important;
     width: 1000px;
     vertical-align: middle;
     p { margin: 0px; line-height: 140%; }
 }
 
 .project-thumbnail {
-    width: 250px;
-    height: 230px; /* 또는 원하는 고정 높이 */
+    width: 300px;
     object-fit: cover;
     border-radius: 8px;
     vertical-align: middle;

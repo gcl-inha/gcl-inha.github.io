@@ -12,7 +12,7 @@ def resize_to_exact_size(
 
     target_height = int(target_width / target_aspect_ratio)
 
-    for filename in os.listdir(input_dir):
+    for filename in sorted(os.listdir(input_dir)):
         if not filename.lower().endswith(valid_extensions):
             continue
 
@@ -29,17 +29,18 @@ def resize_to_exact_size(
         # 비율 보존 없이 강제 리사이즈
         resized_img = img.resize((target_width, target_height), Image.LANCZOS)
 
+        print(input_path, img.width/img.height)
+
         try:
             resized_img.save(output_path, "PNG")
-            print(f"✅ 저장 완료: {output_path}")
         except Exception as e:
             print(f"[오류] 저장 실패: {filename} - {e}")
 
 # 사용 예시
 if __name__ == "__main__":
     resize_to_exact_size(
-        input_dir="ttt",            # 입력 폴더
-        output_dir="output",           # 출력 폴더
-        target_width=1600,              # 원하는 너비
-        target_aspect_ratio=2.2 / 1      # 예: 4:3 → height = 384
+        input_dir="image2",            # 입력 폴더
+        output_dir="output2",           # 출력 폴더
+        target_width=800,              # 원하는 너비
+        target_aspect_ratio=2.5 / 1      # 예: 4:3 → height = 384
     )

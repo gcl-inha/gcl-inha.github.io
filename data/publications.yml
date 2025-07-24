@@ -7,7 +7,6 @@ years:
         authors:
             - name: Hyunwook Jo
             - name: Jiseung Maeng
-            - name: Wonhyuk Ahn
             - name: Jun Hyung Park
             - name: Namhyuk Ahn
               link: https://nmhkahn.github.io
@@ -102,7 +101,7 @@ years:
         project: https://nmhkahn.github.io/dreamstyler
         arXiv: https://arxiv.org/abs/2309.06933
         code: https://github.com/webtoon/dreamstyler
-        img: aaai2024a.gif
+        img: aaai2024a.png
 
       - name: ijcv2024a
         key: ijcv2024a
@@ -122,19 +121,19 @@ years:
         key: eswa2024a
         title: "Decomposing Texture and Semantics for Out-of-distribution Detection"
         authors:
-            - name: Jeong-Hyeon Moon*
-            - name: Namhyuk Ahn*
+            - name: Jeong-Hyeon Moon\*
+            - name: Namhyuk Ahn\*
               link: https://nmhkahn.github.io
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
         venue: Expert Systems with Applications (ESWA)
         pdf: https://www.sciencedirect.com/science/article/pii/S095741742302331X
-        img: eswa2024a.gif
+        img: eswa2024a.png
 
   - year: 2023
     papers:
-      - name: arxiv2023b
-        key: arxiv2023b
+      - name: arxiv2023a
+        key: arxiv2023a
         title: "DiffBlender: Scalable and Composable Multimodal Text-to-Image Diffusion Models"
         authors:
             - name: Sungnyun Kim
@@ -150,7 +149,7 @@ years:
         arXiv: https://arxiv.org/abs/2305.15194
         project: https://sungnyun.github.io/diffblender
         code: https://github.com/sungnyun/diffblender
-        img: arxiv2023b.gif
+        img: arxiv2023a.png
 
       - name: iccv2023a
         key: iccv2023a
@@ -176,7 +175,7 @@ years:
         venue: ICCV 2023
         arXiv: https://arxiv.org/abs/2307.09724
         code: https://github.com/Kibeom-Hong/AesPA-Net
-        img: iccv2023a.gif
+        img: iccv2023a.png
 
       - name: cvpr2023a
         key: cvpr2023a
@@ -192,14 +191,14 @@ years:
             - name: Seungkwon Kim
         venue: CVPR 2023
         arXiv: https://arxiv.org/abs/2212.09555
-        img: cvpr2023a.gif
+        img: cvpr2023a.png
 
       - name: cvprw2023a
         key: cvprw2023a
         title: "LPMM: Intuitive Pose Control for Neural Talking-Head Models via Landmark-Parameter Morphable Model"
         authors:
-            - name: Kwangho Lee
-            - name: Patrick Kwon
+            - name: Kwangho Lee\*
+            - name: Patrick Kwon\*
               link: https://yj7082126.github.io
             - name: Myung Ki Lee
             - name: Namhyuk Ahn
@@ -208,7 +207,7 @@ years:
               link: https://ssuhan.github.io/
         venue: CVPR Workshops 2023
         arXiv: https://arxiv.org/abs/2305.10456
-        img: cvprw2023a.gif
+        img: cvprw2023a.png
 
   - year: 2022
     papers:
@@ -216,14 +215,14 @@ years:
         key: satc2022a
         title: "WebtoonMe: A Data-Centric Approach for Full-Body Portrait Stylization"
         authors:
-            - name: Jihye Back
-            - name: Seungkwon Kim
+            - name: Jihye Back\*
+            - name: Seungkwon Kim\*
             - name: Namhyuk Ahn
               link: https://nmhkahn.github.io
         venue: SIGGRAPH Asia TC 2022
         arXiv: https://arxiv.org/abs/2210.10335
         project: https://webtoon.github.io/WebtoonMe/
-        img: satc2022a.gif
+        img: satc2022a.png
 
       - name: pr2022a
         key: pr2022a
@@ -254,7 +253,7 @@ years:
             - name: Daesik Kim
         venue: CVPR Workshops 2022
         arXiv: https://arxiv.org/abs/2205.12450
-        img: cvprw2022b.gif
+        img: cvprw2022b.png
 
       - name: cvprw2022a
         key: cvprw2022a
@@ -268,7 +267,7 @@ years:
               link: https://sites.google.com/site/kasohn/home
         venue: CVPR Workshops 2022
         pdf: https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Shin_Exploiting_Distortion_Information_for_Multi-Degraded_Image_Restoration_CVPRW_2022_paper.pdf
-        img: cvprw2022a.gif
+        img: cvprw2022a.png
 
   - year: 2021
     papers:
@@ -285,7 +284,7 @@ years:
         venue: ICLRW 2021
         arXiv: https://arxiv.org/abs/2104.09793
         code: https://github.com/JuneKyu/CLAD
-        img: iclrw2021a.gif
+        img: iclrw2021a.png
 
   - year: 2020
     papers:
@@ -293,43 +292,43 @@ years:
         key: accv2020a
         title: "Restoring Spatially-Heterogeneous Distortions Using Mixture of Experts Network"
         authors:
-            - name: Sijin Kim*
-            - name: Namhyuk Ahn*
+            - name: Sijin Kim\*
+            - name: Namhyuk Ahn\*
               link: https://nmhkahn.github.io
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
         venue: ACCV 2020
         arXiv: https://arxiv.org/abs/2009.14563
-        img: accv2020a.gif
+        img: accv2020a.png
 
       - name: cvpr2020a
         key: cvpr2020a
         title: "Rethinking Data Augmentation for Image Super-Resolution: A Comprehensive Analysis and a New Strategy"
         authors:
-            - name: Jaejun Yoo*
+            - name: Jaejun Yoo\*
               link: https://sites.google.com/view/jaejunyoo
-            - name: Namhyuk Ahn*
+            - name: Namhyuk Ahn\*
               link: https://nmhkahn.github.io
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
         venue: CVPR 2020
         arXiv: https://arxiv.org/abs/2004.00448
         code: https://github.com/clovaai/cutblur
-        img: cvpr2020a.gif
+        img: cvpr2020a.png
 
       - name: cvprw2020a
         key: cvprw2020a
         title: "SimUSR: A Simple but Strong Baseline for Unsupervised Image Super-Resolution"
         authors:
-            - name: Namhyuk Ahn*
+            - name: Namhyuk Ahn\*
               link: https://nmhkahn.github.io
-            - name: Jaejun Yoo*
+            - name: Jaejun Yoo\*
               link: https://sites.google.com/view/jaejunyoo
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
         venue: CVPR Workshops 2020
         arXiv: https://arxiv.org/abs/2004.11020
-        img: cvprw2020a.gif
+        img: cvprw2020a.png
 
   - year: 2018
     papers:
@@ -346,7 +345,7 @@ years:
         venue: ECCV 2018
         arXiv: https://arxiv.org/abs/1803.08664
         code: https://github.com/nmhkahn/CARN-pytorch
-        img: eccv2018a.gif
+        img: eccv2018a.png
 
       - name: cvprw2018a
         key: cvprw2018a
@@ -360,7 +359,7 @@ years:
               link: https://sites.google.com/site/kasohn/home
         venue: CVPR Workshops 2018
         pdf: http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Ahn_Image_Super-Resolution_via_CVPR_2018_paper.pdf
-        img: cvprw2018a.gif
+        img: cvprw2018a.png
   
 
   - year: 2017
@@ -377,4 +376,4 @@ years:
               link: https://sites.google.com/site/kasohn/home
         venue: ACPR 2017
         arXiv: https://arxiv.org/abs/1805.10881
-        img: acpr2017a.gif
+        img: acpr2017a.png
