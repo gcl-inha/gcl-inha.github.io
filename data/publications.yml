@@ -1,6 +1,23 @@
 years:
   - year: 2025
     papers:
+      - name: arxiv2024a
+        key: arxiv2024a
+        title: "Imperceptible Protection Against Style Imitation from Diffusion Models"
+        authors:
+            - name: Namhyuk Ahn
+              link: https://nmhkahn.github.io
+            - name: Wonhyuk Ahn
+              link: https://scholar.google.com/citations?user=SvpXOqsAAAAJ
+            - name: KiYoon Yoo
+              link: https://kiyoonyoo.github.io
+            - name: Daesik Kim
+            - name: Seung-Hun Nam
+              link: https://sites.google.com/view/shnam/
+        venue: IEE Transactions on Multimedia (TMM), IF=9.7 (JCR Top 5%)
+        arXiv: https://arxiv.org/abs/2403.19254
+        img: tmm2025a.png
+        
       - name: iccvw2025a
         key: iccvw2025a
         title: "A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models"
@@ -12,7 +29,7 @@ years:
               link: https://nmhkahn.github.io
             - name: In Kyu Park
               link: https://sites.google.com/view/vcl-lab/home
-        venue: ICCV Workshops 2025
+        venue: ICCV Workshop 2025
         project: 
         arXiv: 
         img: iccvw2025a.png
@@ -44,7 +61,7 @@ years:
               link: https://nmhkahn.github.io
             - name: Jangho Kim
               link: https://sites.google.com/view/ml-pr
-        venue: Expert Systems with Applications (ESWA)
+        venue: Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)
         arXiv: https://arxiv.org/abs/2306.05056
         img: eswa2025a.png
 
@@ -57,29 +74,12 @@ years:
               link: https://nmhkahn.github.io
             - name: In Kyu Park
               link: https://sites.google.com/view/vcl-lab/home
-        venue: IEEE Access
+        venue: IEEE Access, IF=3.6 (JCR Q2)
         pdf: https://ieeexplore.ieee.org/document/10877822
         img: access2025a.png
 
   - year: 2024
-    papers:
-      - name: arxiv2024a
-        key: arxiv2024a
-        title: "Imperceptible Protection Against Style Imitation from Diffusion Models"
-        authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Wonhyuk Ahn
-              link: https://scholar.google.com/citations?user=SvpXOqsAAAAJ
-            - name: KiYoon Yoo
-              link: https://kiyoonyoo.github.io
-            - name: Daesik Kim
-            - name: Seung-Hun Nam
-              link: https://sites.google.com/view/shnam/
-        venue: arXiv preprint arXiv:2403.19254
-        arXiv: https://arxiv.org/abs/2403.19254
-        img: arxiv2024a.png
-
+    papers:  
       - name: aaai2024a
         key: aaai2024a
         title: "DreamStyler: Paint by Style Inversion with Text-to-Image Diffusion Models"
@@ -113,7 +113,7 @@ years:
               link: https://sites.google.com/view/jaejunyoo
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
-        venue: International Journal of Computer Vision (IJCV)
+        venue: International Journal of Computer Vision (IJCV), IF=9.3 (JCR Top 10%)
         pdf: https://link.springer.com/article/10.1007/s11263-023-01970-z
         img: ijcv2024a.png
 
@@ -126,7 +126,7 @@ years:
               link: https://nmhkahn.github.io
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
-        venue: Expert Systems with Applications (ESWA)
+        venue: Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)
         pdf: https://www.sciencedirect.com/science/article/pii/S095741742302331X
         img: eswa2024a.png
 
@@ -205,7 +205,7 @@ years:
               link: https://nmhkahn.github.io
             - name: Junsoo Lee
               link: https://ssuhan.github.io/
-        venue: CVPR Workshops 2023
+        venue: CVPR Workshop 2023
         arXiv: https://arxiv.org/abs/2305.10456
         img: cvprw2023a.png
 
@@ -234,7 +234,7 @@ years:
               link: https://sites.google.com/view/byungkon/home
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
-        venue: Pattern Recognition
+        venue: Pattern Recognition, IF=7.6 (JCR Top 10%)
         arXiv: https://arxiv.org/abs/1903.02240
         code: https://github.com/nmhkahn/PCARN-pytorch
         img: pr2022a.png
@@ -251,7 +251,7 @@ years:
             - name: Namhyuk Ahn
               link: https://nmhkahn.github.io
             - name: Daesik Kim
-        venue: CVPR Workshops 2022
+        venue: CVPR Workshop 2022
         arXiv: https://arxiv.org/abs/2205.12450
         img: cvprw2022b.png
 
@@ -265,7 +265,7 @@ years:
             - name: Jeong-Hyeon Moon
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
-        venue: CVPR Workshops 2022
+        venue: CVPR Workshop 2022
         pdf: https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Shin_Exploiting_Distortion_Information_for_Multi-Degraded_Image_Restoration_CVPRW_2022_paper.pdf
         img: cvprw2022a.png
 
@@ -326,7 +326,7 @@ years:
               link: https://sites.google.com/view/jaejunyoo
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
-        venue: CVPR Workshops 2020
+        venue: CVPR Workshop 2020
         arXiv: https://arxiv.org/abs/2004.11020
         img: cvprw2020a.png
 
@@ -357,8 +357,8 @@ years:
               link: https://sites.google.com/view/byungkon/home
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
-        venue: CVPR Workshops 2018
-        pdf: http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Ahn_Image_Super-Resolution_via_CVPR_2018_paper.pdf
+        venue: CVPR Workshop 2018
+        pdf: http://openaccess.thecvf.com/content_cvpr_2018_Workshop/papers/w13/Ahn_Image_Super-Resolution_via_CVPR_2018_paper.pdf
         img: cvprw2018a.png
   
 
