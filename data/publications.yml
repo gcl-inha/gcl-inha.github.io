@@ -1,39 +1,6 @@
 years:
   - year: 2025
     papers:
-      - name: arxiv2024a
-        key: arxiv2024a
-        title: "Imperceptible Protection Against Style Imitation from Diffusion Models"
-        authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Wonhyuk Ahn
-              link: https://scholar.google.com/citations?user=SvpXOqsAAAAJ
-            - name: KiYoon Yoo
-              link: https://kiyoonyoo.github.io
-            - name: Daesik Kim
-            - name: Seung-Hun Nam
-              link: https://sites.google.com/view/shnam/
-        venue: IEEE Transactions on Multimedia (TMM), IF=9.7 (JCR Top 5%)
-        arXiv: https://arxiv.org/abs/2403.19254
-        img: tmm2025a.png
-        
-      - name: iccvw2025a
-        key: iccvw2025a
-        title: "A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models"
-        authors:
-            - name: Hyunwook Jo
-            - name: Jiseung Maeng
-            - name: Jun Hyung Park
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: In Kyu Park
-              link: https://sites.google.com/view/vcl-lab/home
-        venue: ICCV Workshop 2025
-        project: 
-        arXiv: 
-        img: iccvw2025a.png
-
       - name: cvpr2025a
         key: cvpr2025a
         title: "Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models"
@@ -52,6 +19,42 @@ years:
         arXiv: https://arxiv.org/abs/2412.11423
         img: cvpr2025a.png
 
+      - name: arxiv2024a
+        key: arxiv2024a
+        title: "Imperceptible Protection Against Style Imitation from Diffusion Models"
+        authors:
+            - name: Namhyuk Ahn
+              link: https://nmhkahn.github.io
+            - name: Wonhyuk Ahn
+              link: https://scholar.google.com/citations?user=SvpXOqsAAAAJ
+            - name: KiYoon Yoo
+              link: https://kiyoonyoo.github.io
+            - name: Daesik Kim
+            - name: Seung-Hun Nam
+              link: https://sites.google.com/view/shnam/
+        venue: IEEE Transactions on Multimedia (TMM), IF=9.7 (JCR Top 5%)
+        arXiv: https://arxiv.org/abs/2403.19254
+        img: tmm2025a.png
+
+      - name: arxiv2023a
+        key: arxiv2023a
+        title: "DiffBlender: Scalable and Composable Multimodal Text-to-Image Diffusion Models"
+        authors:
+            - name: Sungnyun Kim
+              link: https://bit.ly/sungnyunkim
+            - name: Junsoo Lee
+              link: https://ssuhan.github.io/
+            - name: Kibeom Hong
+              link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
+            - name: Daesik Kim
+            - name: Namhyuk Ahn
+              link: https://nmhkahn.github.io
+        venue: Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)
+        arXiv: https://arxiv.org/abs/2305.15194
+        project: https://sungnyun.github.io/diffblender
+        code: https://github.com/sungnyun/diffblender
+        img: arxiv2023a.png
+      
       - name: eswa2025a
         key: eswa2025a
         title: "Magnitude Attention-based Dynamic Pruning"
@@ -77,6 +80,22 @@ years:
         venue: IEEE Access, IF=3.6 (JCR Q2)
         pdf: https://ieeexplore.ieee.org/document/10877822
         img: access2025a.png
+
+      - name: iccvw2025a
+        key: iccvw2025a
+        title: "A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models"
+        authors:
+            - name: Hyunwook Jo
+            - name: Jiseung Maeng
+            - name: Jun Hyung Park
+            - name: Namhyuk Ahn
+              link: https://nmhkahn.github.io
+            - name: In Kyu Park
+              link: https://sites.google.com/view/vcl-lab/home
+        venue: ICCV Workshop 2025
+        project: 
+        arXiv: 
+        img: iccvw2025a.png
 
   - year: 2024
     papers:  
@@ -132,24 +151,21 @@ years:
 
   - year: 2023
     papers:
-      - name: arxiv2023a
-        key: arxiv2023a
-        title: "DiffBlender: Scalable and Composable Multimodal Text-to-Image Diffusion Models"
+      - name: cvpr2023a
+        key: cvpr2023a
+        title: "Interactive Cartoonization with Controllable Perceptual Factors"
         authors:
-            - name: Sungnyun Kim
-              link: https://bit.ly/sungnyunkim
-            - name: Junsoo Lee
-              link: https://ssuhan.github.io/
-            - name: Kibeom Hong
-              link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
-            - name: Daesik Kim
             - name: Namhyuk Ahn
               link: https://nmhkahn.github.io
-        venue: arXiv preprint arXiv:2305.15194
-        arXiv: https://arxiv.org/abs/2305.15194
-        project: https://sungnyun.github.io/diffblender
-        code: https://github.com/sungnyun/diffblender
-        img: arxiv2023a.png
+            - name: Patrick Kwon
+              link: https://yj7082126.github.io
+            - name: Jihye Back
+            - name: Kibeom Hong
+              link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
+            - name: Seungkwon Kim
+        venue: CVPR 2023
+        arXiv: https://arxiv.org/abs/2212.09555
+        img: cvpr2023a.png
 
       - name: iccv2023a
         key: iccv2023a
@@ -176,22 +192,6 @@ years:
         arXiv: https://arxiv.org/abs/2307.09724
         code: https://github.com/Kibeom-Hong/AesPA-Net
         img: iccv2023a.png
-
-      - name: cvpr2023a
-        key: cvpr2023a
-        title: "Interactive Cartoonization with Controllable Perceptual Factors"
-        authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Patrick Kwon
-              link: https://yj7082126.github.io
-            - name: Jihye Back
-            - name: Kibeom Hong
-              link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
-            - name: Seungkwon Kim
-        venue: CVPR 2023
-        arXiv: https://arxiv.org/abs/2212.09555
-        img: cvpr2023a.png
 
       - name: cvprw2023a
         key: cvprw2023a
@@ -288,19 +288,6 @@ years:
 
   - year: 2020
     papers:
-      - name: accv2020a
-        key: accv2020a
-        title: "Restoring Spatially-Heterogeneous Distortions Using Mixture of Experts Network"
-        authors:
-            - name: Sijin Kim\*
-            - name: Namhyuk Ahn\*
-              link: https://nmhkahn.github.io
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
-        venue: ACCV 2020
-        arXiv: https://arxiv.org/abs/2009.14563
-        img: accv2020a.png
-
       - name: cvpr2020a
         key: cvpr2020a
         title: "Rethinking Data Augmentation for Image Super-Resolution: A Comprehensive Analysis and a New Strategy"
@@ -315,6 +302,19 @@ years:
         arXiv: https://arxiv.org/abs/2004.00448
         code: https://github.com/clovaai/cutblur
         img: cvpr2020a.png
+
+      - name: accv2020a
+        key: accv2020a
+        title: "Restoring Spatially-Heterogeneous Distortions Using Mixture of Experts Network"
+        authors:
+            - name: Sijin Kim\*
+            - name: Namhyuk Ahn\*
+              link: https://nmhkahn.github.io
+            - name: Kyung-Ah Sohn
+              link: https://sites.google.com/site/kasohn/home
+        venue: ACCV 2020
+        arXiv: https://arxiv.org/abs/2009.14563
+        img: accv2020a.png
 
       - name: cvprw2020a
         key: cvprw2020a

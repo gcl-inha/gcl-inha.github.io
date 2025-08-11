@@ -12,7 +12,7 @@
   link: https://nmhkahn.github.io/dreamstyler
 - key: arxiv2023b
   title: "DiffBlender: Scalable and Composable Multimodal Text-to-Image Diffusion Models"
-  venue: arXiv preprint
+  venue: Expert Systems with Applications
   desc: A novel framework for blending multiple modalities in text-to-image diffusion models.
   desc_ko: 다양한 데이터를 조합하여 보다 정교하고 풍부한 이미지를 생성할 수 있는 멀티모달 융합 프레임워크 연구
   link: https://sungnyun.github.io/diffblender

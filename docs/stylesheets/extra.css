@@ -73,13 +73,14 @@
 .news-entry {
   display: grid;
   grid-template-columns: 120px 1fr;  /* time 고정 너비, title 나머지 */
-  column-gap: 1em;
+  column-gap: 1.5em;
   margin: 1em 0 0.5em 0;
   align-items: start;
 }
 
 .news-time {
   font-weight: bold;
+  text-align: right;
 }
 
 .news-title {
