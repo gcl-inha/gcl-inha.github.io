@@ -360,19 +360,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Publications
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -384,97 +371,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#2025" class="md-nav__link">
-    <span class="md-ellipsis">
-      2025
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2024" class="md-nav__link">
-    <span class="md-ellipsis">
-      2024
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2023" class="md-nav__link">
-    <span class="md-ellipsis">
-      2023
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2022" class="md-nav__link">
-    <span class="md-ellipsis">
-      2022
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2021" class="md-nav__link">
-    <span class="md-ellipsis">
-      2021
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2020" class="md-nav__link">
-    <span class="md-ellipsis">
-      2020
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2018" class="md-nav__link">
-    <span class="md-ellipsis">
-      2018
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2017" class="md-nav__link">
-    <span class="md-ellipsis">
-      2017
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -546,86 +442,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#2025" class="md-nav__link">
-    <span class="md-ellipsis">
-      2025
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2024" class="md-nav__link">
-    <span class="md-ellipsis">
-      2024
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2023" class="md-nav__link">
-    <span class="md-ellipsis">
-      2023
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2022" class="md-nav__link">
-    <span class="md-ellipsis">
-      2022
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2021" class="md-nav__link">
-    <span class="md-ellipsis">
-      2021
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2020" class="md-nav__link">
-    <span class="md-ellipsis">
-      2020
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2018" class="md-nav__link">
-    <span class="md-ellipsis">
-      2018
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2017" class="md-nav__link">
-    <span class="md-ellipsis">
-      2017
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -644,311 +460,363 @@
 
 <style>
 .md-typeset .grid {
-    grid-template-columns: repeat(auto-fit, minmax(90%, 1fr))
+  grid-template-columns: repeat(auto-fit, minmax(90%, 1fr));
+}
+
+/* 연구실 구성원(교수+학생 전원) 밑줄: dashed + descender 겹침 방지 */
+.md-content .md-typeset a.lab-member,
+.md-content .md-typeset .lab-member {
+  text-decoration: none !important;
+  border-bottom: 1.5px dashed var(--md-primary-fg-color);
+}
+.md-content .md-typeset a.lab-member:hover,
+.md-content .md-typeset .lab-member:hover {
+  border-bottom-style: solid;
 }
 </style>
 
 <h1 id="publications">Publications</h1>
-<h2 id="2025">2025</h2>
-<div class="grid">
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/cvpr2025a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://webtoon.github.io/impasto/" target=_blank><strong>Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models</strong></a>
-<br>
-<a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://kiyoonyoo.github.io" target=_blank>KiYoon Yoo</a>, <a href="https://scholar.google.com/citations?user=SvpXOqsAAAAJ" target=_blank>Wonhyuk Ahn</a>, Daesik Kim, <a href="https://sites.google.com/view/shnam/" target=_blank>Seung-Hun Nam</a><br>
-CVPR 2025 <br>
-<a href="https://webtoon.github.io/impasto/" target=_blank>Project</a>&ensp;&ensp;<a href="https://arxiv.org/abs/2412.11423" target=_blank>ARXIV</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/tmm2025a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/2403.19254" target=_blank><strong>Imperceptible Protection Against Style Imitation from Diffusion Models</strong></a>
-<br>
-<a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://scholar.google.com/citations?user=SvpXOqsAAAAJ" target=_blank>Wonhyuk Ahn</a>, <a href="https://kiyoonyoo.github.io" target=_blank>KiYoon Yoo</a>, Daesik Kim, <a href="https://sites.google.com/view/shnam/" target=_blank>Seung-Hun Nam</a><br>
-IEEE Transactions on Multimedia (TMM), IF=9.7 (JCR Top 5%) <br>
-<a href="https://arxiv.org/abs/2403.19254" target=_blank>ARXIV</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/arxiv2023a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://sungnyun.github.io/diffblender" target=_blank><strong>DiffBlender: Scalable and Composable Multimodal Text-to-Image Diffusion Models</strong></a>
-<br>
-<a href="https://bit.ly/sungnyunkim" target=_blank>Sungnyun Kim</a>, <a href="https://ssuhan.github.io/" target=_blank>Junsoo Lee</a>, <a href="https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu" target=_blank>Kibeom Hong</a>, Daesik Kim, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a><br>
-Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%) <br>
-<a href="https://sungnyun.github.io/diffblender" target=_blank>Project</a>&ensp;&ensp;<a href="https://arxiv.org/abs/2305.15194" target=_blank>ARXIV</a>&ensp;&ensp;<a href="https://github.com/sungnyun/diffblender" target=_blank>Code</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/eswa2025a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/2306.05056" target=_blank><strong>Magnitude Attention-based Dynamic Pruning</strong></a>
-<br>
-Jihye Back, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://sites.google.com/view/ml-pr" target=_blank>Jangho Kim</a><br>
-Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%) <br>
-<a href="https://arxiv.org/abs/2306.05056" target=_blank>ARXIV</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/access2025a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><strong>CutMAA: Motion-Aware Data Augmentation for Light Field Super-Resolution</strong>
-<br>
-Sojin Yun, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://sites.google.com/view/vcl-lab/home" target=_blank>In Kyu Park</a><br>
-IEEE Access, IF=3.6 (JCR Q2) <br>
-<a href="https://ieeexplore.ieee.org/document/10877822" target=_blank>Link</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/iccvw2025a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><strong>A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models</strong>
-<br>
-Hyunwook Jo, Jiseung Maeng, Jun Hyung Park, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://sites.google.com/view/vcl-lab/home" target=_blank>In Kyu Park</a><br>
-ICCV Workshop 2025 <br></p>
-</div>
-</div>
-</div>
-<h2 id="2024">2024</h2>
-<div class="grid">
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/aaai2024a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://nmhkahn.github.io/dreamstyler" target=_blank><strong>DreamStyler: Paint by Style Inversion with Text-to-Image Diffusion Models</strong></a>
-<br>
-<a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://ssuhan.github.io/" target=_blank>Junsoo Lee</a>, <a href="https://chungyi347.github.io/" target=_blank>Chunggi Lee</a>, <a href="https://kunheek.github.io" target=_blank>Kunhee Kim</a>, Daesik Kim, <a href="https://sites.google.com/view/shnam/" target=_blank>Seung-Hun Nam</a>, <a href="https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu" target=_blank>Kibeom Hong</a><br>
-AAAI 2024 <br>
-<a href="https://nmhkahn.github.io/dreamstyler" target=_blank>Project</a>&ensp;&ensp;<a href="https://arxiv.org/abs/2309.06933" target=_blank>ARXIV</a>&ensp;&ensp;<a href="https://github.com/webtoon/dreamstyler" target=_blank>Code</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/ijcv2024a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><strong>Data Augmentation for Low-Level Vision: CutBlur and Mixture-of-Augmentation</strong>
-<br>
-<a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://sites.google.com/view/jaejunyoo" target=_blank>Jaejun Yoo</a>, <a href="https://sites.google.com/site/kasohn/home" target=_blank>Kyung-Ah Sohn</a><br>
-International Journal of Computer Vision (IJCV), IF=9.3 (JCR Top 10%) <br>
-<a href="https://link.springer.com/article/10.1007/s11263-023-01970-z" target=_blank>Link</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/eswa2024a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><strong>Decomposing Texture and Semantics for Out-of-distribution Detection</strong>
-<br>
-Jeong-Hyeon Moon*, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn*</a>, <a href="https://sites.google.com/site/kasohn/home" target=_blank>Kyung-Ah Sohn</a><br>
-Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%) <br>
-<a href="https://www.sciencedirect.com/science/article/pii/S095741742302331X" target=_blank>Link</a>&ensp;&ensp;</p>
-</div>
-</div>
-</div>
-<h2 id="2023">2023</h2>
-<div class="grid">
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/cvpr2023a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/2212.09555" target=_blank><strong>Interactive Cartoonization with Controllable Perceptual Factors</strong></a>
-<br>
-<a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://yj7082126.github.io" target=_blank>Patrick Kwon</a>, Jihye Back, <a href="https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu" target=_blank>Kibeom Hong</a>, Seungkwon Kim<br>
-CVPR 2023 <br>
-<a href="https://arxiv.org/abs/2212.09555" target=_blank>ARXIV</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/iccv2023a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/2307.09724" target=_blank><strong>AesPA-Net: Aesthetic Pattern-Aware Style Transfer Networks</strong></a>
-<br>
-<a href="https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu" target=_blank>Kibeom Hong</a>, <a href="https://scholar.google.com/citations?user=w-byizkAAAAJ" target=_blank>Seogkyu Jeon</a>, <a href="https://ssuhan.github.io/" target=_blank>Junsoo Lee</a>, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://kunheek.github.io" target=_blank>Kunhee Kim</a>, <a href="https://sites.google.com/view/mailab-inha" target=_blank>Pilhyeon Lee</a>, Daesik Kim, <a href="https://vilab.yonsei.ac.kr" target=_blank>Youngjung Uh</a>, <a href="https://scholar.google.com/citations?user=F_NI-dcAAAAJ" target=_blank>Hyeran Byun</a><br>
-ICCV 2023 <br>
-<a href="https://arxiv.org/abs/2307.09724" target=_blank>ARXIV</a>&ensp;&ensp;<a href="https://github.com/Kibeom-Hong/AesPA-Net" target=_blank>Code</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/cvprw2023a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/2305.10456" target=_blank><strong>LPMM: Intuitive Pose Control for Neural Talking-Head Models via Landmark-Parameter Morphable Model</strong></a>
-<br>
-Kwangho Lee*, <a href="https://yj7082126.github.io" target=_blank>Patrick Kwon*</a>, Myung Ki Lee, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://ssuhan.github.io/" target=_blank>Junsoo Lee</a><br>
-CVPR Workshop 2023 <br>
-<a href="https://arxiv.org/abs/2305.10456" target=_blank>ARXIV</a>&ensp;&ensp;</p>
-</div>
-</div>
-</div>
-<h2 id="2022">2022</h2>
-<div class="grid">
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/satc2022a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://webtoon.github.io/WebtoonMe/" target=_blank><strong>WebtoonMe: A Data-Centric Approach for Full-Body Portrait Stylization</strong></a>
-<br>
-Jihye Back*, Seungkwon Kim*, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a><br>
-SIGGRAPH Asia TC 2022 <br>
-<a href="https://webtoon.github.io/WebtoonMe/" target=_blank>Project</a>&ensp;&ensp;<a href="https://arxiv.org/abs/2210.10335" target=_blank>ARXIV</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/pr2022a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/1903.02240" target=_blank><strong>Efficient Deep Neural Network for Photo-Realistic Image Super-Resolution</strong></a>
-<br>
-<a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://sites.google.com/view/byungkon/home" target=_blank>Byungkon Kang</a>, <a href="https://sites.google.com/site/kasohn/home" target=_blank>Kyung-Ah Sohn</a><br>
-Pattern Recognition, IF=7.6 (JCR Top 10%) <br>
-<a href="https://arxiv.org/abs/1903.02240" target=_blank>ARXIV</a>&ensp;&ensp;<a href="https://github.com/nmhkahn/PCARN-pytorch" target=_blank>Code</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/cvprw2022b.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/2205.12450" target=_blank><strong>Cross-Domain Style Mixing for Face Cartoonization</strong></a>
-<br>
-Seungkwon Kim, Chaeheon Gwak, Dohyun Kim, Kwangho Lee, Jihye Back, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, Daesik Kim<br>
-CVPR Workshop 2022 <br>
-<a href="https://arxiv.org/abs/2205.12450" target=_blank>ARXIV</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/cvprw2022a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><strong>Exploiting Distortion Information for Multi-Degraded Image Restoration</strong>
-<br>
-Wooksu Shin, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, Jeong-Hyeon Moon, <a href="https://sites.google.com/site/kasohn/home" target=_blank>Kyung-Ah Sohn</a><br>
-CVPR Workshop 2022 <br>
-<a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Shin_Exploiting_Distortion_Information_for_Multi-Degraded_Image_Restoration_CVPRW_2022_paper.pdf" target=_blank>Link</a>&ensp;&ensp;</p>
-</div>
-</div>
-</div>
-<h2 id="2021">2021</h2>
-<div class="grid">
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/iclrw2021a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/2104.09793" target=_blank><strong>What Is Wrong With One-Class Anomaly Detection?</strong></a>
-<br>
-JuneKyu Park, Jeong-Hyeon Moon, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://sites.google.com/site/kasohn/home" target=_blank>Kyung-Ah Sohn</a><br>
-ICLRW 2021 <br>
-<a href="https://arxiv.org/abs/2104.09793" target=_blank>ARXIV</a>&ensp;&ensp;<a href="https://github.com/JuneKyu/CLAD" target=_blank>Code</a>&ensp;&ensp;</p>
-</div>
-</div>
-</div>
-<h2 id="2020">2020</h2>
-<div class="grid">
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/cvpr2020a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/2004.00448" target=_blank><strong>Rethinking Data Augmentation for Image Super-Resolution: A Comprehensive Analysis and a New Strategy</strong></a>
-<br>
-<a href="https://sites.google.com/view/jaejunyoo" target=_blank>Jaejun Yoo*</a>, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn*</a>, <a href="https://sites.google.com/site/kasohn/home" target=_blank>Kyung-Ah Sohn</a><br>
-CVPR 2020 <br>
-<a href="https://arxiv.org/abs/2004.00448" target=_blank>ARXIV</a>&ensp;&ensp;<a href="https://github.com/clovaai/cutblur" target=_blank>Code</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/accv2020a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/2009.14563" target=_blank><strong>Restoring Spatially-Heterogeneous Distortions Using Mixture of Experts Network</strong></a>
-<br>
-Sijin Kim*, <a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn*</a>, <a href="https://sites.google.com/site/kasohn/home" target=_blank>Kyung-Ah Sohn</a><br>
-ACCV 2020 <br>
-<a href="https://arxiv.org/abs/2009.14563" target=_blank>ARXIV</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/cvprw2020a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/2004.11020" target=_blank><strong>SimUSR: A Simple but Strong Baseline for Unsupervised Image Super-Resolution</strong></a>
-<br>
-<a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn*</a>, <a href="https://sites.google.com/view/jaejunyoo" target=_blank>Jaejun Yoo*</a>, <a href="https://sites.google.com/site/kasohn/home" target=_blank>Kyung-Ah Sohn</a><br>
-CVPR Workshop 2020 <br>
-<a href="https://arxiv.org/abs/2004.11020" target=_blank>ARXIV</a>&ensp;&ensp;</p>
-</div>
-</div>
-</div>
-<h2 id="2018">2018</h2>
-<div class="grid">
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/eccv2018a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/1803.08664" target=_blank><strong>Fast, Accurate, and Lightweight Super-Resolution With Cascading Residual Network</strong></a>
-<br>
-<a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://sites.google.com/view/byungkon/home" target=_blank>Byungkon Kang</a>, <a href="https://sites.google.com/site/kasohn/home" target=_blank>Kyung-Ah Sohn</a><br>
-ECCV 2018 <br>
-<a href="https://arxiv.org/abs/1803.08664" target=_blank>ARXIV</a>&ensp;&ensp;<a href="https://github.com/nmhkahn/CARN-pytorch" target=_blank>Code</a>&ensp;&ensp;</p>
-</div>
-</div>
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/cvprw2018a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><strong>Image Super-Resolution via Progressive Cascading Residual Network</strong>
-<br>
-<a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://sites.google.com/view/byungkon/home" target=_blank>Byungkon Kang</a>, <a href="https://sites.google.com/site/kasohn/home" target=_blank>Kyung-Ah Sohn</a><br>
-CVPR Workshop 2018 <br>
-<a href="http://openaccess.thecvf.com/content_cvpr_2018_Workshop/papers/w13/Ahn_Image_Super-Resolution_via_CVPR_2018_paper.pdf" target=_blank>Link</a>&ensp;&ensp;</p>
-</div>
-</div>
-</div>
-<h2 id="2017">2017</h2>
-<div class="grid">
-<div class="card">
-<div class="publication-thumbnail-cell">
-<p><img class="publication-thumbnail" src="../assets/papers/acpr2017a.png" markdown></p>
-</div>
-<div class="publication-description-cell">
-<p><a class="fg-color-dark" href="https://arxiv.org/abs/1805.10881" target=_blank><strong>Image Distortion Detection Using Convolutional Neural Network</strong></a>
-<br>
-<a href="https://nmhkahn.github.io" target=_blank>Namhyuk Ahn</a>, <a href="https://sites.google.com/view/byungkon/home" target=_blank>Byungkon Kang</a>, <a href="https://sites.google.com/site/kasohn/home" target=_blank>Kyung-Ah Sohn</a><br>
-ACPR 2017 <br>
-<a href="https://arxiv.org/abs/1805.10881" target=_blank>ARXIV</a>&ensp;&ensp;</p>
-</div>
-</div>
-</div>
-<p><br /></p>
+<h2>2026</h2>
+<div class="grid"><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/arxiv2023a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>DiffBlender: Composable and Versatile Multimodal Text-to-Image Diffusion Models</strong></span><br>
+
+    <a href="https://bit.ly/sungnyunkim" target="_blank">Sungnyun Kim</a>, <a href="https://ssuhan.github.io/" target="_blank">Junsoo Lee</a>, <a href="https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu" target="_blank">Kibeom Hong</a>, Daesik Kim, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a><br>
+
+    Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)<br><a href="https://sungnyun.github.io/diffblender" target="_blank">Project</a>&ensp;&ensp;<a href="https://arxiv.org/abs/2305.15194" target="_blank">ARXIV</a>&ensp;&ensp;<a href="https://doi.org/10.1016/j.eswa.2025.129345" target="_blank">Link</a>&ensp;&ensp;<a href="https://github.com/sungnyun/diffblender" target="_blank">Code</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --></div>
+<!-- /.grid --><h2>2025</h2>
+<div class="grid"><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/cvpr2025a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models</strong></span><br>
+
+    <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://kiyoonyoo.github.io" target="_blank">KiYoon Yoo</a>, <a href="https://scholar.google.com/citations?user=SvpXOqsAAAAJ" target="_blank">Wonhyuk Ahn</a>, Daesik Kim, <a href="https://sites.google.com/view/shnam/" target="_blank">Seung-Hun Nam</a><br>
+
+    CVPR 2025<br><a href="https://webtoon.github.io/impasto/" target="_blank">Project</a>&ensp;&ensp;<a href="https://arxiv.org/abs/2412.11423" target="_blank">ARXIV</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/tmm2025a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Imperceptible Protection Against Style Imitation from Diffusion Models</strong></span><br>
+
+    <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://scholar.google.com/citations?user=SvpXOqsAAAAJ" target="_blank">Wonhyuk Ahn</a>, <a href="https://kiyoonyoo.github.io" target="_blank">KiYoon Yoo</a>, Daesik Kim, <a href="https://sites.google.com/view/shnam/" target="_blank">Seung-Hun Nam</a><br>
+
+    IEEE Transactions on Multimedia (TMM), IF=9.7 (JCR Top 5%)<br><a href="https://arxiv.org/abs/2403.19254" target="_blank">ARXIV</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/eswa2025a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Magnitude Attention-based Dynamic Pruning</strong></span><br>
+
+    Jihye Back, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://sites.google.com/view/ml-pr" target="_blank">Jangho Kim</a><br>
+
+    Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)<br><a href="https://arxiv.org/abs/2306.05056" target="_blank">ARXIV</a>&ensp;&ensp;<a href="https://doi.org/10.1016/j.eswa.2025.126957" target="_blank">Link</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/access2025a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>CutMAA: Motion-Aware Data Augmentation for Light Field Super-Resolution</strong></span><br>
+
+    Sojin Yun, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://sites.google.com/view/vcl-lab/home" target="_blank">In Kyu Park</a><br>
+
+    IEEE Access, IF=3.6 (JCR Q2)<br><a href="https://ieeexplore.ieee.org/document/10877822" target="_blank">Link</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/iccvw2025a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models</strong></span><br>
+
+    Hyunwook Jo, Jiseung Maeng, Jun Hyung Park, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://sites.google.com/view/vcl-lab/home" target="_blank">In Kyu Park</a><br>
+
+    ICCV Workshop 2025<br></div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --></div>
+<!-- /.grid --><h2>2024</h2>
+<div class="grid"><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/aaai2024a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>DreamStyler: Paint by Style Inversion with Text-to-Image Diffusion Models</strong></span><br>
+
+    <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://ssuhan.github.io/" target="_blank">Junsoo Lee</a>, <a href="https://chungyi347.github.io/" target="_blank">Chunggi Lee</a>, <a href="https://kunheek.github.io" target="_blank">Kunhee Kim</a>, Daesik Kim, <a href="https://sites.google.com/view/shnam/" target="_blank">Seung-Hun Nam</a>, <a href="https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu" target="_blank">Kibeom Hong</a><br>
+
+    AAAI 2024<br><a href="https://nmhkahn.github.io/dreamstyler" target="_blank">Project</a>&ensp;&ensp;<a href="https://arxiv.org/abs/2309.06933" target="_blank">ARXIV</a>&ensp;&ensp;<a href="https://github.com/webtoon/dreamstyler" target="_blank">Code</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/ijcv2024a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Data Augmentation for Low-Level Vision: CutBlur and Mixture-of-Augmentation</strong></span><br>
+
+    <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://sites.google.com/view/jaejunyoo" target="_blank">Jaejun Yoo</a>, <a href="https://sites.google.com/site/kasohn/home" target="_blank">Kyung-Ah Sohn</a><br>
+
+    International Journal of Computer Vision (IJCV), IF=9.3 (JCR Top 10%)<br><a href="https://link.springer.com/article/10.1007/s11263-023-01970-z" target="_blank">Link</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/eswa2024a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Decomposing Texture and Semantics for Out-of-distribution Detection</strong></span><br>
+
+    Jeong-Hyeon Moon*, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn*</a>, <a href="https://sites.google.com/site/kasohn/home" target="_blank">Kyung-Ah Sohn</a><br>
+
+    Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)<br><a href="https://www.sciencedirect.com/science/article/pii/S095741742302331X" target="_blank">Link</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --></div>
+<!-- /.grid --><h2>2023</h2>
+<div class="grid"><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/cvpr2023a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Interactive Cartoonization with Controllable Perceptual Factors</strong></span><br>
+
+    <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://yj7082126.github.io" target="_blank">Patrick Kwon</a>, Jihye Back, <a href="https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu" target="_blank">Kibeom Hong</a>, Seungkwon Kim<br>
+
+    CVPR 2023<br><a href="https://arxiv.org/abs/2212.09555" target="_blank">ARXIV</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/iccv2023a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>AesPA-Net: Aesthetic Pattern-Aware Style Transfer Networks</strong></span><br>
+
+    <a href="https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu" target="_blank">Kibeom Hong</a>, <a href="https://scholar.google.com/citations?user=w-byizkAAAAJ" target="_blank">Seogkyu Jeon</a>, <a href="https://ssuhan.github.io/" target="_blank">Junsoo Lee</a>, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://kunheek.github.io" target="_blank">Kunhee Kim</a>, <a href="https://sites.google.com/view/mailab-inha" target="_blank">Pilhyeon Lee</a>, Daesik Kim, <a href="https://vilab.yonsei.ac.kr" target="_blank">Youngjung Uh</a>, <a href="https://scholar.google.com/citations?user=F_NI-dcAAAAJ" target="_blank">Hyeran Byun</a><br>
+
+    ICCV 2023<br><a href="https://arxiv.org/abs/2307.09724" target="_blank">ARXIV</a>&ensp;&ensp;<a href="https://github.com/Kibeom-Hong/AesPA-Net" target="_blank">Code</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/cvprw2023a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>LPMM: Intuitive Pose Control for Neural Talking-Head Models via Landmark-Parameter Morphable Model</strong></span><br>
+
+    Kwangho Lee*, <a href="https://yj7082126.github.io" target="_blank">Patrick Kwon*</a>, Myung Ki Lee, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://ssuhan.github.io/" target="_blank">Junsoo Lee</a><br>
+
+    CVPR Workshop 2023<br><a href="https://arxiv.org/abs/2305.10456" target="_blank">ARXIV</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --></div>
+<!-- /.grid --><h2>2022</h2>
+<div class="grid"><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/satc2022a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>WebtoonMe: A Data-Centric Approach for Full-Body Portrait Stylization</strong></span><br>
+
+    Jihye Back*, Seungkwon Kim*, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a><br>
+
+    SIGGRAPH Asia TC 2022<br><a href="https://webtoon.github.io/WebtoonMe/" target="_blank">Project</a>&ensp;&ensp;<a href="https://arxiv.org/abs/2210.10335" target="_blank">ARXIV</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/pr2022a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Efficient Deep Neural Network for Photo-Realistic Image Super-Resolution</strong></span><br>
+
+    <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://sites.google.com/view/byungkon/home" target="_blank">Byungkon Kang</a>, <a href="https://sites.google.com/site/kasohn/home" target="_blank">Kyung-Ah Sohn</a><br>
+
+    Pattern Recognition, IF=7.6 (JCR Top 10%)<br><a href="https://arxiv.org/abs/1903.02240" target="_blank">ARXIV</a>&ensp;&ensp;<a href="https://github.com/nmhkahn/PCARN-pytorch" target="_blank">Code</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/cvprw2022b.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Cross-Domain Style Mixing for Face Cartoonization</strong></span><br>
+
+    Seungkwon Kim, Chaeheon Gwak, Dohyun Kim, Kwangho Lee, Jihye Back, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, Daesik Kim<br>
+
+    CVPR Workshop 2022<br><a href="https://arxiv.org/abs/2205.12450" target="_blank">ARXIV</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/cvprw2022a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Exploiting Distortion Information for Multi-Degraded Image Restoration</strong></span><br>
+
+    Wooksu Shin, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, Jeong-Hyeon Moon, <a href="https://sites.google.com/site/kasohn/home" target="_blank">Kyung-Ah Sohn</a><br>
+
+    CVPR Workshop 2022<br><a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Shin_Exploiting_Distortion_Information_for_Multi-Degraded_Image_Restoration_CVPRW_2022_paper.pdf" target="_blank">Link</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --></div>
+<!-- /.grid --><h2>2021</h2>
+<div class="grid"><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/iclrw2021a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>What Is Wrong With One-Class Anomaly Detection?</strong></span><br>
+
+    JuneKyu Park, Jeong-Hyeon Moon, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://sites.google.com/site/kasohn/home" target="_blank">Kyung-Ah Sohn</a><br>
+
+    ICLRW 2021<br><a href="https://arxiv.org/abs/2104.09793" target="_blank">ARXIV</a>&ensp;&ensp;<a href="https://github.com/JuneKyu/CLAD" target="_blank">Code</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --></div>
+<!-- /.grid --><h2>2020</h2>
+<div class="grid"><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/cvpr2020a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Rethinking Data Augmentation for Image Super-Resolution: A Comprehensive Analysis and a New Strategy</strong></span><br>
+
+    <a href="https://sites.google.com/view/jaejunyoo" target="_blank">Jaejun Yoo*</a>, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn*</a>, <a href="https://sites.google.com/site/kasohn/home" target="_blank">Kyung-Ah Sohn</a><br>
+
+    CVPR 2020<br><a href="https://arxiv.org/abs/2004.00448" target="_blank">ARXIV</a>&ensp;&ensp;<a href="https://github.com/clovaai/cutblur" target="_blank">Code</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/accv2020a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Restoring Spatially-Heterogeneous Distortions Using Mixture of Experts Network</strong></span><br>
+
+    Sijin Kim*, <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn*</a>, <a href="https://sites.google.com/site/kasohn/home" target="_blank">Kyung-Ah Sohn</a><br>
+
+    ACCV 2020<br><a href="https://arxiv.org/abs/2009.14563" target="_blank">ARXIV</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/cvprw2020a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>SimUSR: A Simple but Strong Baseline for Unsupervised Image Super-Resolution</strong></span><br>
+
+    <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn*</a>, <a href="https://sites.google.com/view/jaejunyoo" target="_blank">Jaejun Yoo*</a>, <a href="https://sites.google.com/site/kasohn/home" target="_blank">Kyung-Ah Sohn</a><br>
+
+    CVPR Workshop 2020<br><a href="https://arxiv.org/abs/2004.11020" target="_blank">ARXIV</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --></div>
+<!-- /.grid --><h2>2018</h2>
+<div class="grid"><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/eccv2018a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Fast, Accurate, and Lightweight Super-Resolution With Cascading Residual Network</strong></span><br>
+
+    <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://sites.google.com/view/byungkon/home" target="_blank">Byungkon Kang</a>, <a href="https://sites.google.com/site/kasohn/home" target="_blank">Kyung-Ah Sohn</a><br>
+
+    ECCV 2018<br><a href="https://arxiv.org/abs/1803.08664" target="_blank">ARXIV</a>&ensp;&ensp;<a href="https://github.com/nmhkahn/CARN-pytorch" target="_blank">Code</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/cvprw2018a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Image Super-Resolution via Progressive Cascading Residual Network</strong></span><br>
+
+    <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://sites.google.com/view/byungkon/home" target="_blank">Byungkon Kang</a>, <a href="https://sites.google.com/site/kasohn/home" target="_blank">Kyung-Ah Sohn</a><br>
+
+    CVPR Workshop 2018<br><a href="http://openaccess.thecvf.com/content_cvpr_2018_Workshop/papers/w13/Ahn_Image_Super-Resolution_via_CVPR_2018_paper.pdf" target="_blank">Link</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --></div>
+<!-- /.grid --><h2>2017</h2>
+<div class="grid"><div class="card">
+
+  <div class="publication-thumbnail-cell">
+    <img class="publication-thumbnail" src="../assets/papers/acpr2017a.png">
+  </div>
+
+  <div class="publication-description-cell">
+
+    <span class="pub-title"><strong>Image Distortion Detection Using Convolutional Neural Network</strong></span><br>
+
+    <a class="lab-member" href="https://nmhkahn.github.io" target="_blank">Namhyuk Ahn</a>, <a href="https://sites.google.com/view/byungkon/home" target="_blank">Byungkon Kang</a>, <a href="https://sites.google.com/site/kasohn/home" target="_blank">Kyung-Ah Sohn</a><br>
+
+    ACPR 2017<br><a href="https://arxiv.org/abs/1805.10881" target="_blank">ARXIV</a>&ensp;&ensp;</div> <!-- /.publication-description-cell -->
+
+</div> <!-- /.card --></div>
+<!-- /.grid --><br />
 
 
 
