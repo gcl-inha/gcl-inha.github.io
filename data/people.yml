@@ -27,6 +27,10 @@ undergrads:
       type: Undergraduate Student
       email: john8538@naver.com
 
+    - name: Jihye Kang (강지혜)
+      type: Undergraduate Student
+      email: rkdwlgp@inha.edu
+      
 former_graduates:
     - name: xxx
       type: M.S. Student

@@ -1,4 +1,25 @@
 years:
+  - year: 2026
+    papers:
+      - name: arxiv2023a
+        key: arxiv2023a
+        title: "DiffBlender: Composable and Versatile Multimodal Text-to-Image Diffusion Models"
+        authors:
+            - name: Sungnyun Kim
+              link: https://bit.ly/sungnyunkim
+            - name: Junsoo Lee
+              link: https://ssuhan.github.io/
+            - name: Kibeom Hong
+              link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
+            - name: Daesik Kim
+            - name: Namhyuk Ahn
+              link: https://nmhkahn.github.io
+        venue: Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)
+        arXiv: https://arxiv.org/abs/2305.15194
+        project: https://sungnyun.github.io/diffblender
+        code: https://github.com/sungnyun/diffblender
+        pdf: https://doi.org/10.1016/j.eswa.2025.129345
+        img: arxiv2023a.png
   - year: 2025
     papers:
       - name: cvpr2025a
@@ -35,25 +56,6 @@ years:
         venue: IEEE Transactions on Multimedia (TMM), IF=9.7 (JCR Top 5%)
         arXiv: https://arxiv.org/abs/2403.19254
         img: tmm2025a.png
-
-      - name: arxiv2023a
-        key: arxiv2023a
-        title: "DiffBlender: Scalable and Composable Multimodal Text-to-Image Diffusion Models"
-        authors:
-            - name: Sungnyun Kim
-              link: https://bit.ly/sungnyunkim
-            - name: Junsoo Lee
-              link: https://ssuhan.github.io/
-            - name: Kibeom Hong
-              link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
-            - name: Daesik Kim
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-        venue: Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)
-        arXiv: https://arxiv.org/abs/2305.15194
-        project: https://sungnyun.github.io/diffblender
-        code: https://github.com/sungnyun/diffblender
-        img: arxiv2023a.png
       
       - name: eswa2025a
         key: eswa2025a
@@ -66,6 +68,7 @@ years:
               link: https://sites.google.com/view/ml-pr
         venue: Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)
         arXiv: https://arxiv.org/abs/2306.05056
+        pdf: https://doi.org/10.1016/j.eswa.2025.126957
         img: eswa2025a.png
 
       - name: access2025a
@@ -140,8 +143,8 @@ years:
         key: eswa2024a
         title: "Decomposing Texture and Semantics for Out-of-distribution Detection"
         authors:
-            - name: Jeong-Hyeon Moon\*
-            - name: Namhyuk Ahn\*
+            - name: Jeong-Hyeon Moon*
+            - name: Namhyuk Ahn*
               link: https://nmhkahn.github.io
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
@@ -197,8 +200,8 @@ years:
         key: cvprw2023a
         title: "LPMM: Intuitive Pose Control for Neural Talking-Head Models via Landmark-Parameter Morphable Model"
         authors:
-            - name: Kwangho Lee\*
-            - name: Patrick Kwon\*
+            - name: Kwangho Lee*
+            - name: Patrick Kwon*
               link: https://yj7082126.github.io
             - name: Myung Ki Lee
             - name: Namhyuk Ahn
@@ -215,8 +218,8 @@ years:
         key: satc2022a
         title: "WebtoonMe: A Data-Centric Approach for Full-Body Portrait Stylization"
         authors:
-            - name: Jihye Back\*
-            - name: Seungkwon Kim\*
+            - name: Jihye Back*
+            - name: Seungkwon Kim*
             - name: Namhyuk Ahn
               link: https://nmhkahn.github.io
         venue: SIGGRAPH Asia TC 2022
@@ -292,9 +295,9 @@ years:
         key: cvpr2020a
         title: "Rethinking Data Augmentation for Image Super-Resolution: A Comprehensive Analysis and a New Strategy"
         authors:
-            - name: Jaejun Yoo\*
+            - name: Jaejun Yoo*
               link: https://sites.google.com/view/jaejunyoo
-            - name: Namhyuk Ahn\*
+            - name: Namhyuk Ahn*
               link: https://nmhkahn.github.io
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
@@ -307,8 +310,8 @@ years:
         key: accv2020a
         title: "Restoring Spatially-Heterogeneous Distortions Using Mixture of Experts Network"
         authors:
-            - name: Sijin Kim\*
-            - name: Namhyuk Ahn\*
+            - name: Sijin Kim*
+            - name: Namhyuk Ahn*
               link: https://nmhkahn.github.io
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
@@ -320,9 +323,9 @@ years:
         key: cvprw2020a
         title: "SimUSR: A Simple but Strong Baseline for Unsupervised Image Super-Resolution"
         authors:
-            - name: Namhyuk Ahn\*
+            - name: Namhyuk Ahn*
               link: https://nmhkahn.github.io
-            - name: Jaejun Yoo\*
+            - name: Jaejun Yoo*
               link: https://sites.google.com/view/jaejunyoo
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
