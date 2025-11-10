@@ -1,6 +1,36 @@
 years:
   - year: 2026
     papers:
+      - name: wacv2026a
+        key: wacv2026a
+        title: "T2LF: LLM-Guided Multimodal Diffusion for Text-to-Light Field Synthesis"
+        authors:
+            - name: Soyoung Yoon
+            - name: Namhyuk Ahn
+              link: https://nmhkahn.github.io
+            - name: In Kyu Park
+              link: https://sites.google.com/view/vcl-lab/home
+        venue: WACV 2026 (accepted)
+        arXiv: 
+        img: wacv2026a.png
+
+      - name: arxiv2024a
+        key: arxiv2024a
+        title: "Imperceptible Protection Against Style Imitation from Diffusion Models"
+        authors:
+            - name: Namhyuk Ahn
+              link: https://nmhkahn.github.io
+            - name: Wonhyuk Ahn
+              link: https://scholar.google.com/citations?user=SvpXOqsAAAAJ
+            - name: KiYoon Yoo
+              link: https://kiyoonyoo.github.io
+            - name: Daesik Kim
+            - name: Seung-Hun Nam
+              link: https://sites.google.com/view/shnam/
+        venue: IEEE Transactions on Multimedia (TMM), IF=9.7 (JCR Top 5%) (accepted)
+        arXiv: https://arxiv.org/abs/2403.19254
+        img: tmm2025a.png
+
       - name: arxiv2023a
         key: arxiv2023a
         title: "DiffBlender: Composable and Versatile Multimodal Text-to-Image Diffusion Models"
@@ -22,6 +52,18 @@ years:
         img: arxiv2023a.png
   - year: 2025
     papers:
+      - name: arxiv2025a
+        key: arxiv2025a
+        title: "Compositional Image Synthesis with Inference-Time Scaling"
+        authors:
+            - name: Minsuk Ji
+            - name: Sanghyeok Lee
+            - name: Namhyuk Ahn
+              link: https://nmhkahn.github.io
+        venue: arXiv preprint:2510.24133
+        arXiv: https://arxiv.org/abs/2510.24133
+        img: arxiv2025a.png
+
       - name: cvpr2025a
         key: cvpr2025a
         title: "Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models"
@@ -39,23 +81,6 @@ years:
         project: https://webtoon.github.io/impasto/
         arXiv: https://arxiv.org/abs/2412.11423
         img: cvpr2025a.png
-
-      - name: arxiv2024a
-        key: arxiv2024a
-        title: "Imperceptible Protection Against Style Imitation from Diffusion Models"
-        authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Wonhyuk Ahn
-              link: https://scholar.google.com/citations?user=SvpXOqsAAAAJ
-            - name: KiYoon Yoo
-              link: https://kiyoonyoo.github.io
-            - name: Daesik Kim
-            - name: Seung-Hun Nam
-              link: https://sites.google.com/view/shnam/
-        venue: IEEE Transactions on Multimedia (TMM), IF=9.7 (JCR Top 5%)
-        arXiv: https://arxiv.org/abs/2403.19254
-        img: tmm2025a.png
       
       - name: eswa2025a
         key: eswa2025a
@@ -96,8 +121,8 @@ years:
             - name: In Kyu Park
               link: https://sites.google.com/view/vcl-lab/home
         venue: ICCV Workshop 2025
-        project: 
-        arXiv: 
+        code: https://github.com/ugiugi0823/ICCVW-RLI
+        pdf: https://openaccess.thecvf.com/content/ICCV2025W/MMFM/papers/Jo_A_Plug-and-Play_Approach_for_Robust_Image_Editing_in_Text-to-Image_Diffusion_ICCVW_2025_paper.pdf 
         img: iccvw2025a.png
 
   - year: 2024
@@ -284,7 +309,7 @@ years:
               link: https://nmhkahn.github.io
             - name: Kyung-Ah Sohn
               link: https://sites.google.com/site/kasohn/home
-        venue: ICLRW 2021
+        venue: ICLR Workshop 2021
         arXiv: https://arxiv.org/abs/2104.09793
         code: https://github.com/JuneKyu/CLAD
         img: iclrw2021a.png
