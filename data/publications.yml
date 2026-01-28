@@ -1,6 +1,22 @@
 years:
   - year: 2026
     papers:
+      - name: icassp2026a
+        key: icassp2026a
+        title: "Compositional Image Synthesis with Inference-Time Scaling"
+        authors:
+            - name: Minsuk Ji*
+              link: https://scholar.google.com/citations?user=Fzen5FYAAAAJ
+            - name: Sanghyeok Lee*
+              link: https://github.com/lexxsh
+            - name: Namhyuk Ahn
+              link: https://nmhkahn.github.io
+        venue: ICASSP 2026
+        arXiv: https://arxiv.org/abs/2510.24133
+        project: https://minsuk-ji.github.io/ReFocus/
+        code: https://github.com/gcl-inha/ReFocus
+        img: icassp2026a.png
+
       - name: wacv2026a
         key: wacv2026a
         title: "T2LF: LLM-Guided Multimodal Diffusion for Text-to-Light Field Synthesis"
@@ -10,7 +26,7 @@ years:
               link: https://nmhkahn.github.io
             - name: In Kyu Park
               link: https://sites.google.com/view/vcl-lab/home
-        venue: WACV 2026 (accepted)
+        venue: WACV 2026
         arXiv: 
         img: wacv2026a.png
 
@@ -52,18 +68,6 @@ years:
         img: arxiv2023a.png
   - year: 2025
     papers:
-      - name: arxiv2025a
-        key: arxiv2025a
-        title: "Compositional Image Synthesis with Inference-Time Scaling"
-        authors:
-            - name: Minsuk Ji
-            - name: Sanghyeok Lee
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-        venue: arXiv preprint:2510.24133
-        arXiv: https://arxiv.org/abs/2510.24133
-        img: arxiv2025a.png
-
       - name: cvpr2025a
         key: cvpr2025a
         title: "Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models"

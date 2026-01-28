@@ -14,22 +14,27 @@ master:
   - name: Minsuk Ji (지민석)
     type: M.S. Student
     email: wlalstjr471@gmail.com
+    scholar: https://scholar.google.com/citations?user=Fzen5FYAAAAJ
+
   - name: Sungwoo Hwang (황성우)
     type: M.S. Student (co-advised w/ <a href="https://sites.google.com/view/vcl-lab/home?authuser=0">In Kyu Park</a>)
     email: hwelly1522@naver.com
-  - name: Jungwook Cho (조중욱)
-    type: M.S. Student (part-time)
-    email: jjw9180@naver.com
   
  
 undergrads:
     - name: Sanghyeok Lee (이상혁)
       type: Undergraduate Student
       email: john8538@naver.com
+      web: https://github.com/lexxsh
+      scholar: https://scholar.google.com/citations?user=Z1JjvdMAAAAJ
 
     - name: Jihye Kang (강지혜)
       type: Undergraduate Student
       email: rkdwlgp@inha.edu
+
+    - name: Jiwon Park (박지원)
+      type: Undergraduate Student
+      email: pjw12211778@inha.edu
       
 former_graduates:
     - name: xxx
