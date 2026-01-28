@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;700&display=swap');
+
 :root {
+    --md-text-font: "Montserrat", "IBM Plex Sans KR";
+    font-family: "Montserrat", "IBM Plex Sans KR", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
     /* https://www.color-hex.com/ */
     --md-primary-fg-color:          #005BAC;
     --md-primary-fg-color--light:   #00AFEC;
@@ -189,4 +194,50 @@
         display: inline-table;
         width: 100% !important;
     }
+}
+/* Language Toggle Customization */
+.md-header__button .lg-txt { display: none; }
+.md-select__link .lg-txt { display: inline; }
+
+.custom-lang-toggle {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 2px 8px !important;
+    height: 28px !important;
+    width: auto !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: all 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-lang-toggle:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.lang-arrow svg {
+    color: #ffffff;
+    transition: transform 0.2s;
+}
+
+[dir="rtl"] .lang-arrow {
+    margin-right: 4px;
+}
+
+/* Rotate arrow when dropdown is active */
+.md-select:hover .lang-arrow svg,
+.md-select:focus-within .lang-arrow svg {
+    transform: rotate(180deg);
+}
+
+/* Adjust select container to fit custom button */
+.md-select {
+    margin-left: 8px;
 }

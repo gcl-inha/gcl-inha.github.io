@@ -1,31 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://gcl-inha.github.io/</loc>
-         <lastmod>2025-11-11</lastmod>
+        <loc>https://gcl-inha.github.io/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/"/>
     </url>
     <url>
-         <loc>https://gcl-inha.github.io/join-us/</loc>
-         <lastmod>2025-11-11</lastmod>
+        <loc>https://gcl-inha.github.io/join-us/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/join-us/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/join-us/"/>
     </url>
     <url>
-         <loc>https://gcl-inha.github.io/news/</loc>
-         <lastmod>2025-11-11</lastmod>
+        <loc>https://gcl-inha.github.io/news/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/news/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/news/"/>
     </url>
     <url>
-         <loc>https://gcl-inha.github.io/people/</loc>
-         <lastmod>2025-11-11</lastmod>
+        <loc>https://gcl-inha.github.io/people/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/people/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/people/"/>
     </url>
     <url>
-         <loc>https://gcl-inha.github.io/projects/</loc>
-         <lastmod>2025-11-11</lastmod>
+        <loc>https://gcl-inha.github.io/projects/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/projects/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/projects/"/>
     </url>
     <url>
-         <loc>https://gcl-inha.github.io/publications/</loc>
-         <lastmod>2025-11-11</lastmod>
+        <loc>https://gcl-inha.github.io/publications/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/publications/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/publications/"/>
     </url>
     <url>
-         <loc>https://gcl-inha.github.io/research/</loc>
-         <lastmod>2025-11-11</lastmod>
+        <loc>https://gcl-inha.github.io/research/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/research/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/research/"/>
+    </url>
+    <url>
+        <loc>https://gcl-inha.github.io/en/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/"/>
+    </url>
+    <url>
+        <loc>https://gcl-inha.github.io/en/join-us/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/join-us/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/join-us/"/>
+    </url>
+    <url>
+        <loc>https://gcl-inha.github.io/en/news/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/news/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/news/"/>
+    </url>
+    <url>
+        <loc>https://gcl-inha.github.io/en/people/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/people/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/people/"/>
+    </url>
+    <url>
+        <loc>https://gcl-inha.github.io/en/projects/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/projects/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/projects/"/>
+    </url>
+    <url>
+        <loc>https://gcl-inha.github.io/en/publications/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/publications/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/publications/"/>
+    </url>
+    <url>
+        <loc>https://gcl-inha.github.io/en/research/</loc>
+        <lastmod>2026-01-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/research/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/research/"/>
     </url>
 </urlset>
