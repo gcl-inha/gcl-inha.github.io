@@ -20,7 +20,31 @@ hide:
 {% for item in projects.ongoing %}
 <div class="card" markdown>
 <div class="project-thumbnail-cell" markdown>
-<img class="project-thumbnail" src="../assets/projects/{{ item.img }}" markdown>
+<img class="project-thumbnail" src="/assets/projects/{{ item.img }}" markdown>
+</div>
+<div class="project-description-cell" markdown>
+__{{ item.ko }}__
+<br>
+{{ item.en }}
+<br>
+{{ item.fund }}
+<br>
+수행 기간: {{ item.date }}
+</div>
+</div>
+
+{% endfor %}
+</div>
+
+
+## Completed
+
+<div class="grid" markdown>
+
+{% for item in projects.completed %}
+<div class="card" markdown>
+<div class="project-thumbnail-cell" markdown>
+<img class="project-thumbnail" src="/assets/projects/{{ item.img }}" markdown>
 </div>
 <div class="project-description-cell" markdown>
 __{{ item.ko }}__

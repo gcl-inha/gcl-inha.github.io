@@ -1,3 +1,9 @@
+- key: icassp2026a
+  title: "Compositional Image Synthesis with Inference-Time Scaling"
+  venue: ICASSP 2026
+  desc: Enhancing text-to-image compositionality via iterative self-refinement and inference-time scaling without additional training.
+  desc_ko: 추론 시간 확장과 반복적 자기 정제를 통해 추가 학습 없이 생성 이미지의 구도적 정합성을 고도화하는 기술 개발
+  link: https://minsuk-ji.github.io/ReFocus/
 - key: cvpr2025a
   title: "Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models"
   venue: CVPR 2025
@@ -20,13 +26,13 @@
   title: "AesPA-Net: Aesthetic Pattern-Aware Style Transfer Networks"
   venue: ICCV 2023
   desc: Aesthetic pattern-aware style transfer networks for high-quality image synthesis.
-  desc_ko: 이미지의 미적 요소를 인식하고 반영할 수 있는 스타일 전이 기법을 통한 고품질 이미지 합성 연구
+  desc_ko: 이미지의 미적 요소를 인식하고 반영할 수 있는 스타일 변환 기법을 통한 고품질 이미지 합성 연구
   link: https://github.com/Kibeom-Hong/AesPA-Net
 - key: cvpr2023a
   title: "Interactive Cartoonization with Controllable Perceptual Factors"
   venue: CVPR 2023
   desc: An interactive way of cartoonization that allows for the manipulation of perceptual factors.
-  desc_ko: 사용자 컨트롤을 통해 스타일이나 색상을 조절할 수 있는 인터랙티브 만화화 시스템 설계
+  desc_ko: 사용자가 스타일이나 색상을 조절할 수 있는 인터랙티브 만화화 시스템 설계
   link: https://arxiv.org/abs/2212.09555
 - key: satc2022a
   title: "WebtoonMe: A Data-Centric Approach for Full-Body Portrait Stylization"
@@ -40,9 +46,3 @@
   desc: A first attempt at modern data augmentation for image super-resolution.
   desc_ko: 이미지 선명도를 높이기 위한 초해상도 기술 특화 데이터 증강 기법
   link: https://github.com/clovaai/cutblur
-- key: eccv2018a
-  title: "Fast, Accurate, and Lightweight Super-Resolution With Cascading Residual Network"
-  venue: ECCV 2018
-  desc: A lightweight and efficient approach to image super-resolution.
-  desc_ko: 계산 자원이 제한된 환경에서도 활용 가능한 경량화된 이미지 초해상도 기술 연구
-  link: https://github.com/nmhkahn/CARN-pytorch

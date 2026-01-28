@@ -1,0 +1,824 @@
+
+<!doctype html>
+<html lang="ko" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://gcl-inha.github.io/">
+      
+      
+      
+        <link rel="next" href="people/">
+      
+      
+        
+          <link rel="alternate" href="/" hreflang="ko">
+        
+          <link rel="alternate" href="/en/" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="assets/logo_gcl.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Generative Computing Lab</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Montserrat";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#generative-computing-lab" class="md-skip">
+          콘텐츠로 이동
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="상단/헤더">
+    <a href="." title="Generative Computing Lab" class="md-header__button md-logo" aria-label="Generative Computing Lab" data-md-component="logo">
+      
+  <img src="assets/logo_gcl_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Generative Computing Lab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    <button class="md-header__button md-icon custom-lang-toggle" aria-label="Select language">
+      
+        <span class="lang-flag" style="font-size: 1.1rem; font-style: normal; line-height: 1;">🇰🇷</span>
+      
+      <span class="lang-arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z"/></svg>
+      </span>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/" hreflang="ko" class="md-select__link">
+              🇰🇷 <span class="lg-txt">한국어</span>
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/en/" hreflang="en" class="md-select__link">
+              🇺🇸 <span class="lg-txt">English</span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="탭" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="people/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  People
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="research/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Research
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="publications/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Publications
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="projects/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Projects
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="join-us/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Join Us
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="네비게이션" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Generative Computing Lab" class="md-nav__button md-logo" aria-label="Generative Computing Lab" data-md-component="logo">
+      
+  <img src="assets/logo_gcl_white.png" alt="logo">
+
+    </a>
+    Generative Computing Lab
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#research-highlights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Highlights
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#news" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        News
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="publications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Publications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="join-us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Join Us
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#research-highlights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research Highlights
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#news" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        News
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<h1 id="generative-computing-lab">Generative Computing Lab</h1>
+<p>인하대학교 생성컴퓨팅 연구실은 일반 사용자부터 분야별 전문가에 이르기까지, 누구나 생성형 AI의 혜택을 누릴 수 있도록 접근성과 사회적 효용을 극대화한 인간 중심의 기술을 연구합니다. 나아가 생성형 AI의 책임감 있는 발전을 위해 데이터 보안과 윤리적 가치를 보장하는 신뢰 시스템 구축에 주력하고 있습니다.</p>
+<!-- Link Swiper's CSS -->
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /></p>
+<!-- Research Highlights -->
+<div class="swiper research-highlights-swiper">
+<h2 id="research-highlights">Research Highlights</h2>
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<p><a href="https://minsuk-ji.github.io/ReFocus/" target=_blank></p>
+<div class="card">
+<center>
+<img src="/assets/highlights/icassp2026a.png" markdown>
+<b>Compositional Image Synthesis with Inference-Time Scaling (ICASSP 2026)</b><br>
+<span class="fg-color-dark">추론 시간 확장과 반복적 자기 정제를 통해 추가 학습 없이 생성 이미지의 구도적 정합성을 고도화하는 기술 개발</span><br>
+</center>
+</div>
+<p></a></p>
+</div>
+<div class="swiper-slide">
+<p><a href="https://webtoon.github.io/impasto/" target=_blank></p>
+<div class="card">
+<center>
+<img src="/assets/highlights/cvpr2025a.png" markdown>
+<b>Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models (CVPR 2025)</b><br>
+<span class="fg-color-dark">개인화된 생성형 확산 모델이 이미지를 모방하지 못하도록 빠르고 효율적으로 보호하는 기술 개발</span><br>
+</center>
+</div>
+<p></a></p>
+</div>
+<div class="swiper-slide">
+<p><a href="https://nmhkahn.github.io/dreamstyler" target=_blank></p>
+<div class="card">
+<center>
+<img src="/assets/highlights/aaai2024a.png" markdown>
+<b>DreamStyler: Paint by Style Inversion with Text-to-Image Diffusion Models (AAAI 2024)</b><br>
+<span class="fg-color-dark">한 장의 스타일 이미지 통해 맞춤 스타일 이미지를 생성할 수 있는 텍스트 기반 이미지 생성 모델 학습 프레임워크 개발</span><br>
+</center>
+</div>
+<p></a></p>
+</div>
+<div class="swiper-slide">
+<p><a href="https://sungnyun.github.io/diffblender" target=_blank></p>
+<div class="card">
+<center>
+<img src="/assets/highlights/arxiv2023b.png" markdown>
+<b>DiffBlender: Scalable and Composable Multimodal Text-to-Image Diffusion Models (Expert Systems with Applications)</b><br>
+<span class="fg-color-dark">다양한 데이터를 조합하여 보다 정교하고 풍부한 이미지를 생성할 수 있는 멀티모달 융합 프레임워크 연구</span><br>
+</center>
+</div>
+<p></a></p>
+</div>
+<div class="swiper-slide">
+<p><a href="https://github.com/Kibeom-Hong/AesPA-Net" target=_blank></p>
+<div class="card">
+<center>
+<img src="/assets/highlights/iccv2023a.png" markdown>
+<b>AesPA-Net: Aesthetic Pattern-Aware Style Transfer Networks (ICCV 2023)</b><br>
+<span class="fg-color-dark">이미지의 미적 요소를 인식하고 반영할 수 있는 스타일 변환 기법을 통한 고품질 이미지 합성 연구</span><br>
+</center>
+</div>
+<p></a></p>
+</div>
+<div class="swiper-slide">
+<p><a href="https://arxiv.org/abs/2212.09555" target=_blank></p>
+<div class="card">
+<center>
+<img src="/assets/highlights/cvpr2023a.png" markdown>
+<b>Interactive Cartoonization with Controllable Perceptual Factors (CVPR 2023)</b><br>
+<span class="fg-color-dark">사용자가 스타일이나 색상을 조절할 수 있는 인터랙티브 만화화 시스템 설계</span><br>
+</center>
+</div>
+<p></a></p>
+</div>
+<div class="swiper-slide">
+<p><a href="https://webtoon.github.io/WebtoonMe/" target=_blank></p>
+<div class="card">
+<center>
+<img src="/assets/highlights/satc2022a.png" markdown>
+<b>WebtoonMe: A Data-Centric Approach for Full-Body Portrait Stylization (SIGGRAPH Asia TC 2022)</b><br>
+<span class="fg-color-dark">전신 인물 사진을 자연스럽게 웹툰 스타일로 변환하는 기술 (웹툰미)</span><br>
+</center>
+</div>
+<p></a></p>
+</div>
+<div class="swiper-slide">
+<p><a href="https://github.com/clovaai/cutblur" target=_blank></p>
+<div class="card">
+<center>
+<img src="/assets/highlights/cvpr2020a.png" markdown>
+<b>Rethinking Data Augmentation for Image Super-Resolution: A Comprehensive Analysis and a New Strategy (CVPR 2020)</b><br>
+<span class="fg-color-dark">이미지 선명도를 높이기 위한 초해상도 기술 특화 데이터 증강 기법</span><br>
+</center>
+</div>
+<p></a></p>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+</div>
+<div class="container">
+<!-- News -->
+<div class="news">
+<h2 id="news"><a class="fg-color-dark" href="news/">News</a></h2>
+<div class="news-entry">
+<div class="news-time">Jan 2026</div>
+<div class="news-title">One paper <a href='https://arxiv.org/abs/2510.24133'>Compositional Image Synthesis with Inference-Time Scaling</a> has been accepted to ICASSP 2026.</div>
+</div>
+<div class="news-entry">
+<div class="news-time">Nov 2025</div>
+<div class="news-title">One paper <a href=''>T2LF: LLM-Guided Multimodal Diffusion for Text-to-Light Field Synthesis</a> has been accepted to WACV 2026.</div>
+</div>
+<div class="news-entry">
+<div class="news-time">Oct 2025</div>
+<div class="news-title">Professor Ahn has been invited to present a tutorial titled <i>"Responsible Generative AI&#58; From Provenance to Protection"</i> at <a href='https://icce-asia2025.org/2025/'>ICCE-Asia 2025</a>.</div>
+</div>
+<div class="news-entry">
+<div class="news-time">Aug 2025</div>
+<div class="news-title">One paper <a href='https://arxiv.org/abs/2305.15194'>DiffBlender: Composable and Versatile Multimodal Text-to-Image Diffusion Models</a> has been accepted to Expert Systems with Applications (ESWA).</div>
+</div>
+<div class="news-entry">
+<div class="news-time">July 2025</div>
+<div class="news-title">One paper <a href='https://arxiv.org/abs/2403.19254'>Imperceptible Protection Against Style Imitation from Diffusion Models</a> has been accepted to IEEE Transactions on Multimedia (TMM).</div>
+</div>
+</div>
+</div>
+<p><br><br></p>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper(".research-highlights-swiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+</script>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 -  Generative Computing Lab at Inha University
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

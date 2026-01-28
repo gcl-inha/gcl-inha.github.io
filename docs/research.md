@@ -4,57 +4,45 @@ hide:
   - toc
 ---
 
-# Research Topics
+인하대학교 생성컴퓨팅 연구실의 가장 큰 목표는 생성형 AI 기술을 고도화하여 사회와 산업 전반의 생산성을 혁신하고 그 기술적 혜택이 최대한 많은 이들에게 돌아가게 하는 것입니다. 우리는 생성형 AI 기술을 통해 단순히 고품질의 이미지나 텍스트를 생성하는 수준을 넘어, 인간이 AI와 상호작용하는 양상과 실제 업무 및 삶의 맥락을 깊이 있게 이해하고자 합니다.
 
-Our mission is to advance Generative AI (Gen AI) to enhance productivity and benefit as many people as possible across various sectors of society and industry. We believe that improving Gen AI is not only about improving image generation quality; rather it’s about understanding how people interact with AI and how their actual work and life. By focusing on creating intuitive, efficient, and user-friendly Gen AI models that accurately reflect users’ intentions, we aim to drive productivity innovation on a broad scale.
-Upon this, our lab revolves around four main research themes toward this goal: 
-<mark style="background-color:#D50000; padding: 1px 4px; color:white; border-radius: 7px">Gen AI + X</mark>, <mark style="background-color:#43A047; padding: 1px 4px; color:white; border-radius: 7px">Creative Gen AI</mark>, <mark style="background-color:#304FFE; padding: 1px 4px; color:white; border-radius: 7px">Ethical Gen AI</mark>, and <mark style="background-color:#AA00FF; padding: 1px 4px; color:white; border-radius: 7px">Evaluation for Gen AI</mark>.
-<div class="ko">
-우리 연구실의 궁극적인 목표는 생성형 AI 기술을 발전시켜 다양한 분야에 더 많은 사람들이 생산성을 높이고 실질적인 혜택을 누릴 수 있도록 하는 것입니다. 우리는 생성형 AI의 발전이 단순히 이미지 생성 품질을 높이는 데에만 그치는 것이 아니라, 사람들이 AI와 어떻게 상호작용하며 실제 작업과 삶 속에서 어떻게 활용하는지를 이해하는 것이라고 믿습니다.
-이를 위해 사용자의 의도를 정확하게 반영하고, 직관적이며 효율적이고 사용자 친화적인 생성형 AI 모델을 개발하여 이 기술을 널리 확산시키고자 합니다. 이러한 비전을 바탕으로, 우리 연구실은 다음의 네 가지 주요 연구 주제를 중심으로 연구를 진행하고 있습니다 (그러나 여기에 국한되지는 않습니다). <mark style="background-color:#D50000; padding: 1px 4px; color:white; border-radius: 7px">Gen AI + X</mark>, <mark style="background-color:#43A047; padding: 1px 4px; color:white; border-radius: 7px">창의적인 생성형 AI</mark>, <mark style="background-color:#304FFE; padding: 1px 4px; color:white; border-radius: 7px">윤리적인 생성형 AI</mark>, <mark style="background-color:#AA00FF; padding: 1px 4px; color:white; border-radius: 7px"> 생성형 AI의 평가</mark>.
-</div>
+본 연구실은 사용자의 의도를 정밀하게 투영하면서도 효율적이고 직관적인 모델을 개발하여, 대규모 기술 혁신을 견인하는 데 집중하고 있습니다. 이를 위해 우리 연구실은 다음의 네 가지 핵심 연구 테마를 중심으로 연구를 지속하고 있습니다.
 
 ---
 
-<mark style="background-color:#D50000; padding: 1px 4px; color:white; border-radius: 7px">Gen AI + X</mark> We aim to enhance productivity across various industries by applying Gen AI technologies. Our research focuses on empowering domain experts with specialized workflows to effectively utilize Gen AI models in their respective fields. For this research theme, this involves improving the <strong>controllability of Gen AI systems</strong> and ensuring they provide <strong>reliable and trustworthy outputs</strong>. By addressing these challenges, we can tailor Gen AI solutions to diverse domains such as manufacturing, healthcare, and more.
-<div class="ko">
-<mark style="background-color:#D50000; padding: 1px 4px; color:white; border-radius: 7px">Gen AI + X</mark>
-생성형 AI 기술을 다양한 산업 분야에 적용할 수 있도록 하는 방법론을 연구합니다. 본 주제에서는 전문가들이 생성형 AI 모델을 효과적으로 활용할 수 있도록 도메인 특화된 작업 흐름(workflow)을 지원하는 데 중점을 두고자 합니다. 이를 위해서는 생성형 AI 시스템에서 사용자의 의도를 정확하게 반영할 수 있는 컨트롤 가능성을 향상시키고, 신뢰할 수 있는 결과를 제공하는 것이 핵심입니다. 본 주제를 연구하여 제조, 물류, 의료 등과 같은 다양한 도메인에 특화된 생성형 AI 솔루션을 구현하고자 합니다.
-</div>
+### 모두를 위한 생성형 AI (Gen AI for Everyone)
+사용자의 기술적 숙련도에 상관없이 누구나 생성형 AI를 쉽고 유용하게 활용할 수 있도록 기술적 토대를 다집니다. 대규모 파운데이션(foundation) 모델과 최종 사용자의 요구사항 사이의 간극을 메우기 위해 다음의 연구를 수행합니다. 
+
+(1) **제어 가능한 생성**: 생성형 AI의 결과물이 사용자의 의도와 정밀하게 일치하도록 세밀한 조종(steerability) 및 정렬(alignment) 기술을 개발합니다.<br>
+(2) **효율적인 아키텍처**: 다양한 플랫폼에서 누구나 쉽게 기술을 사용할 수 있도록 가볍고 확장성이 뛰어난 경량화 생성 모델을 설계합니다.<br>
+(3) **인간 중심의 설계**: 기술적 접근성을 최우선으로 고려하여, 누구나 직관적으로 사용할 수 있는 인터페이스와 상호작용 패러다임을 구축합니다.
+
 
 ---
 
-<mark style="background-color:#43A047; padding: 1px 4px; color:white; border-radius: 7px">Creative Gen AI</mark>
-We also want to revolutionize the creative process in art and media through the integration of Gen AI. Beyond simple image generation, we strive to <strong>enable creators to incorporate Gen AI into their workflows</strong> so that productivity is boosted and they can focus more on innovation and artistic expression. We are also dedicated to <strong>enhancing the controllability of Gen AI models</strong>. With these, we believe that artists and media professionals can intuitively and effectively harness these tools to expand creative boundaries.
-<br>
-Example research areas include 1) developing artistic image synthesis with advanced style transfer methods, 2) creating Gen AI tools for innovative content generation in media production, 3) enhancing user control in Gen AI models for more precise artistic outputs, and 4) integrating Gen AI into traditional creative workflows to augment productivity.
-<div class="ko">
-<mark style="background-color:#43A047; padding: 1px 4px; color:white; border-radius: 7px">창의적인 생성형 AI</mark>
-생성형 AI를 예술 및 미디어 분야의 창작 과정에 통합하여 창작 방식에 혁신을 일으키고자 합니다. 단순한 이미지 생성을 넘어 창작자들이 생성형 AI를 실제 작업 흐름에 자연스럽게 통합하여 생산성을 높이고, 더 나아가 보다 창의적인 아이디어와 예술적 표현에 집중할 수 있도록 지원하는 것이 목표입니다. 이를 통해 예술가와 미디어 전문가들이 생성형 AI 도구를 직관적이고 효과적으로 활용해 창작의 경계를 확장할 수 있다고 믿습니다.
-<br>
-주요 연구 분야는 다음과 같습니다. (1) 스타일 전이 (style transfer) 기법을 활용한 예술적 (artistic) 이미지 합성 기술 개발 (2) 미디어 콘텐츠 제작을 위한 창의적 생성형 AI 도구 개발 (3) 보다 정밀한 결과물을 위한 생성형 AI 모델의 사용자 제어 향상 (4) 기존 창작 워크플로우에 생성형 AI를 통합하는 프레임워크 개발
-</div>
+### 생성형 AI를 통한 산업 혁신 (AX by Gen AI)
+최첨단 생성형 AI 기술을 다양한 산업 및 사회적 영역에 접목하여 실질적인 AI 전환(AX)을 가속화합니다. 특히, 제조, 물류, 헬스케어 등 아직 생성형 AI 기술의 혜택이 충분히 닿지 않은 전문 도메인의 역량과 생산성을 강화하는 데 주력하고자 합니다.
+
+(1) **분야별 맞춤형 최적화**: 높은 정밀도와 도메인 특화 지식이 요구되는 특수 분야를 위해, 대규모 생성형 AI 모델을 정교하게 최적화하는 방법론을 연구합니다.<br>
+(2) **도메인 특화 워크플로우**: 다양한 산업 현장의 고유한 난제들을 해결할 수 있는 통합 AI 솔루션을 구축하여, 실제 환경에서 신뢰할 수 있는 성능을 구현합니다.
+
 
 ---
 
-<mark style="background-color:#304FFE; padding: 1px 4px; color:white; border-radius: 7px">Ethical Gen AI</mark>
-While Gen AI has driven advancements across various fields, it has also introduced <strong>significant social and ethical challenges</strong>. Issues such as sensitive data leakage and copyright infringement of creators have become increasingly concerning. Our research focuses on addressing these challenges by developing methods to protect creators’ rights, enabling pre-trained Gen AI models to forget sensitive knowledge, and creating mechanisms to identify AI-generated content. These efforts aim to promote <strong>trustworthy and secure Gen AI solutions</strong>.
-<br>
-Example research areas include 1) protecting intellectual property rights of creators in Gen AI outputs (as shown in above figure), 2) developing machine unlearning to enhance data privacy, 3) designing systems for detecting AI-generated images and content, and 4) creating ethical guidelines and frameworks for responsible Gen AI use.
-<div class="ko">
-<mark style="background-color:#304FFE; padding: 1px 4px; color:white; border-radius: 7px">윤리적인 생성형 AI</mark>
-생성형 AI는 중대한 사회적·윤리적 문제도 야기하고 있습니다. 예를들어, 최근 민감한 데이터의 유출, 창작자의 저작권 침해 등은 점점 더 심각한 이슈로 대두되고 있습니다. 이에 따라 우리 연구실은 창작자의 권리를 보호하고, 사전학습된 생성형 AI 모델이 민감한 정보를 ‘잊을 수’ 있도록 하며, 생성된 콘텐츠의 AI 여부를 식별할 수 있는 기술을 개발하는 데 주력하고 있습니다. 이러한 노력을 통해 신뢰할 수 있고 안전한 생성형 AI 기술을 구현하는 것을 목표로 합니다.
-<br>
-주요 연구 분야는 다음과 같습니다. (1) 생성형 AI에 의한 창작자의 지식 재산권 보호 (2) 데이터 프라이버시 강화를 위한 머신 언러닝(machine unlearning) 기법 개발 (3) 생성형 이미지 및 콘텐츠 식별 시스템 설계 (4) 책임 있는 생성형 AI 사용을 위한 윤리적 가이드라인 및 프레임워크 구축
-</div>
+### 창의적인 AI (Creative AI)
+우리는 예술과 미디어 분야의 전문 워크플로우에 생성형 AI를 통합하여 창작 프로세스의 근본적인 혁신을 이끕니다. AI가 창작자를 대체하는 것이 아니라, 강력한 조력자이자 협업 파트너로서 기능하게 합니다. 이를 통해 창작자가 번거로운 작업에서 벗어나 본질적인 혁신과 예술적 표현에 온전히 몰입할 수 있는 환경을 구축하고자 합니다.
+
+(1) **생산성 증대**: 반복적인 작업을 자동화하고 창작 결과물의 수준을 높이는 도구를 개발합니다. (예: Cartooner, DreamStyler)<br>
+(2) **미디어 혁신**: 화풍 변환(stylized synthesis)이나 인터랙티브 미디어 제작 등 콘텐츠 생성의 새로운 지평을 개척합니다. (예: WebtoonMe)
+
 
 ---
 
-<mark style="background-color:#AA00FF; padding: 1px 4px; color:white; border-radius: 7px">Evaluation for Gen AI</mark>
-To ensure the responsible and effective advancement of Gen AIs, establishing <strong>robust evaluation</strong> protocols is essential. Our research emphasizes the development and refinement of evaluation metrics that assess Gen AI models on effectiveness, reliability, and ethical considerations. By implementing comprehensive evaluation frameworks, we can guide Gen AI development in the right direction. To do so, Gen AI not only meet performance objectives but also adhere to ethical guidelines and foster user trust.
-<div class="ko">
-<mark style="background-color:#AA00FF; padding: 1px 4px; color:white; border-radius: 7px">생성형 AI의 평가</mark>
-생성형 AI의 발전을 위해서는 좋은 평가 체계의 구축이 필수적입니다. 우리 연구실은 생성형 AI 모델을 성능, 신뢰성, 윤리성 측면에서 평가할 수 있는 지표와 방법론을 개발하고 정교화하는 측면에서도 연구하며, 이러한 종합적인 평가 프레임워크를 통해 생성형 AI 개발이 올바른 방향으로 나아갈 수 있도록 돕고자 합니다.
-</div>
+### 책임감 있는 AI (Responsible AI)
+생성형 AI가 일상화됨에 따라 발생할 수 있는 잠재적인 사회적 부작용을 최소화하기 위해 노력합니다. AI가 안전하고 윤리적이며 보안이 담보된 상태로 배포될 수 있도록 견고한 기술적 프레임워크를 개발합니다.
+
+(1) **데이터 보안 및 프라이버시**: 민감 정보의 유출을 방지하고 사용자 정보를 보호하기 위해 머신 언러닝(machine unlearning) 및 프라이버시 보존 기술을 연구합니다.<br>
+(2) **지식재산권 보호**: 기술에 의한 저작권 침해를 방지하고 전문 아티스트들의 지식재산권을 보호하기 위한 알고리즘을 개발합니다. (예: Impasto)<br>
+(3) **윤리적 배포**: AI 생성 콘텐츠를 식별하는 메커니즘을 구축하고, 모델의 전 생애 주기에 걸쳐 윤리적 가이드라인이 준수될 수 있도록 기술적 정렬을 추구합니다.
 
 <br><br>

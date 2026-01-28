@@ -43,7 +43,7 @@ hide:
 <div class="card">
 
   <div class="publication-thumbnail-cell">
-    <img class="publication-thumbnail" src="../assets/papers/{{ paper.img }}">
+    <img class="publication-thumbnail" src="/assets/papers/{{ paper.img }}">
   </div>
 
   <div class="publication-description-cell">

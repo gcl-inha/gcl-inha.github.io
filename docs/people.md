@@ -13,7 +13,7 @@ hide:
 {% set item = people.professor %}
 <div class="card" markdown>
 <!-- <div class="people-thumbnail-cell" markdown>
-<img class="people-thumbnail" src="../assets/profile/{{ item.name }}.png" markdown>
+<img class="people-thumbnail" src="/assets/profile/{{ item.name }}.png" markdown>
 </div> -->
 <div class="people-description-cell" markdown>
 {% if item.web %}<a class="fg-color-dark" href="{{ item.web }}" target="_blank">__{{ item.name }}__</a>{% else %}__{{ item.name }}__{% endif %}<br>
@@ -33,7 +33,7 @@ hide:
 {% for item in people.phd %}
 <div class="card" markdown>
 <div class="people-thumbnail-cell" markdown>
-<img class="people-thumbnail" src="../assets/profile/{{ item.name }}.png" markdown>
+<img class="people-thumbnail" src="/assets/profile/{{ item.name }}.png" markdown>
 </div>
 <div class="people-description-cell" markdown>
 {% if item.web %}<a href="{{ item.web }}" target="_blank">__{{ item.name }}__</a>{% else %}__{{ item.name }}__{% endif %}<br>
@@ -55,7 +55,7 @@ hide:
 {% for item in people.master %}
 <div class="card" markdown>
 <!-- <div class="people-thumbnail-cell" markdown>
-<img class="people-thumbnail" src="../assets/profile/{{ item.name }}.png" markdown>
+<img class="people-thumbnail" src="/assets/profile/{{ item.name }}.png" markdown>
 </div> -->
 <div class="people-description-cell" markdown>
 {% if item.web %}<a class="fg-color-dark" href="{{ item.web }}" target="_blank">__{{ item.name }}__</a>{% else %}__{{ item.name }}__{% endif %}<br>
@@ -75,7 +75,7 @@ hide:
 {% for item in people.undergrads %}
 <div class="card" markdown>
 <!-- <div class="people-thumbnail-cell" markdown>
-<img class="people-thumbnail" src="../assets/profile/{{ item.name }}.png" markdown>
+<img class="people-thumbnail" src="/assets/profile/{{ item.name }}.png" markdown>
 </div> -->
 <div class="people-description-cell" markdown>
 {% if item.web %}<a class="fg-color-dark" href="{{ item.web }}" target="_blank">__{{ item.name }}__</a>{% else %}__{{ item.name }}__{% endif %}<br>
@@ -95,7 +95,7 @@ hide:
 {% for item in people.former_graduates %}
 <div class="card" markdown>
 <div class="people-thumbnail-cell" markdown>
-<img class="people-thumbnail" src="../assets/profile/{{ item.name }}.png" markdown>
+<img class="people-thumbnail" src="/assets/profile/{{ item.name }}.png" markdown>
 </div>
 <div class="people-description-cell" markdown>
 {% if item.web %}<a href="{{ item.web }}" target="_blank">__{{ item.name }}__</a>{% else %}__{{ item.name }}__{% endif %}<br>

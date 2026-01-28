@@ -39,7 +39,26 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 
+extra:
+  alternate:
+    - name: 🇰🇷 <span class="lg-txt">한국어</span>
+      link: /
+      lang: ko
+    - name: 🇺🇸 <span class="lg-txt">English</span>
+      link: /en/
+      lang: en
+
 plugins:
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: ko
+          default: true
+          name: 한국어
+          build: true
+        - locale: en
+          name: English
+          build: true
   - macros:
       include_yaml:
         - people: data/people.yml

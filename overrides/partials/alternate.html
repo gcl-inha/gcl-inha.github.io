@@ -1,0 +1,25 @@
+<div class="md-header__option">
+  <div class="md-select">
+    <button class="md-header__button md-icon custom-lang-toggle" aria-label="Select language">
+      {% if i18n_page_locale == 'ko' %}
+        <span class="lang-flag" style="font-size: 1.1rem; font-style: normal; line-height: 1;">🇰🇷</span>
+      {% else %}
+        <span class="lang-flag" style="font-size: 1.1rem; font-style: normal; line-height: 1;">🇺🇸</span>
+      {% endif %}
+      <span class="lang-arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><path fill="currentColor" d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6l-6-6l1.41-1.41z"/></svg>
+      </span>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        {% for alt in config.extra.alternate %}
+          <li class="md-select__item">
+            <a href="{{ alt.link | url }}" hreflang="{{ alt.lang }}" class="md-select__link">
+              {{ alt.name | safe }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

@@ -5,10 +5,7 @@ hide:
 ---
 
 # {{ config.site_name }}
-The Generative Computing Lab (GCL) at Inha University advances Generative AI (Gen AI) technologies to ensure that a wide range of people can benefit from them. We focuse on (but is not limited to) diffusion models and their applications, Gen AI + X (Gen AI for various domains) and ethical and responsible use of Gen AI.
-<div class="ko">
-인하대학교 생성컴퓨팅 연구실은 다양한 사람들이 혜택을 누릴 수 있는 생성형 AI 기술 개발을 목표로 연구를 수행하고 있습니다. 주요 연구 분야는 확산 모델(Diffusion Models)의 응용, 생성형 AI의 다양한 도메인 적용(Gen AI + X), 그리고 생성형 AI의 윤리적이고 책임 있는 활용 방안 등이 있습니다.
-</div>
+인하대학교 생성컴퓨팅 연구실은 일반 사용자부터 분야별 전문가에 이르기까지, 누구나 생성형 AI의 혜택을 누릴 수 있도록 접근성과 사회적 효용을 극대화한 인간 중심의 기술을 연구합니다. 나아가 생성형 AI의 책임감 있는 발전을 위해 데이터 보안과 윤리적 가치를 보장하는 신뢰 시스템 구축에 주력하고 있습니다.
 
 <!-- Link Swiper's CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -25,9 +22,8 @@ The Generative Computing Lab (GCL) at Inha University advances Generative AI (Ge
 <a href="{{ paper.link }}" target=_blank>
 <div class="card" markdown>
 <center>
-<img src="assets/highlights/{{ paper.key }}.png" markdown>
+<img src="/assets/highlights/{{ paper.key }}.png" markdown>
 <b>{{ paper.title }} ({{ paper.venue }})</b><br>
-<span class="fg-color-dark">{{ paper.desc }}</span><br>
 <span class="fg-color-dark">{{ paper.desc_ko }}</span><br>
 </center>
 </div>
@@ -44,7 +40,7 @@ The Generative Computing Lab (GCL) at Inha University advances Generative AI (Ge
 <div class="container" markdown>
 <!-- News -->
 <div class="news" markdown>
-<h2><a class="fg-color-dark" href="/news">News</a></h2>
+<h2><a class="fg-color-dark" href="news/">News</a></h2>
 {% for item in news %}
 {% if loop.index <= 5 %}
 <div class="news-entry">

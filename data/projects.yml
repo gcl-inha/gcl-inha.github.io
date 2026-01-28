@@ -2,22 +2,23 @@ ongoing:
   - name: genai
     ko: "[참여] 산업융합형 멀티모달 생성인공지능 인재양성사업"
     en: "Developing Multimodal Generative AI Talent for Industrial Convergence"
-    date: "2024.04 ~ 2027.12"
+    date: "2024.09 ~ 2027.12"
     fund: "Funded by Institute for Information & communications Technology Promotion (IITP)"
     img: genai.png
 
   - name: bk21
     ko: "[참여] BK21 산업융합형 차세대 인공지능 혁신인재 교육연구단"
     en: "BK21 Pioneer Program in Next-generation Artificial Intelligence for Industrial Convergence"
-    date: "2020.09 ~ 2027.08"
+    date: "2024.09 ~ 2027.08"
     fund: "Funded by National Research Foundation (교육부 4단계 BK21 사업)"
     img: bk21.png
 
+
+
+completed:
   - name: ai_center
     ko: "[참여] 인공지능융합연구센터 / 인공지능융합혁신대학원사업"
     en: "Artificial Intelligence Convergence Research Center"
-    date: "2020.04 ~ 2025.12"
+    date: "2024.09 ~ 2025.12"
     fund: "Funded by Institute for Information & communications Technology Promotion (IITP)"
     img: ai_center.png
-
-# completed:
