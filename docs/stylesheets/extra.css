@@ -75,6 +75,18 @@
     margin-bottom: 1em;
 }
 
+/* Research Highlights Swiper Customization */
+.research-highlights-swiper {
+    max-width: 1000px;
+    /* margin: 0 auto; Centering removed used request */
+}
+
+.research-highlights-swiper img {
+    max-height: 500px;
+    width: auto;
+    object-fit: contain;
+}
+
 .news-entry {
   display: grid;
   grid-template-columns: 120px 1fr;  /* time 고정 너비, title 나머지 */

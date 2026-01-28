@@ -40,7 +40,7 @@ At the Generative Computing Lab (GCL), we build human-centric solutions to make 
 <div class="container" markdown>
 <!-- News -->
 <div class="news" markdown>
-<h2><a class="fg-color-dark" href="news/">News</a></h2>
+<h2><a class="fg-color-dark" href="news/">GCL News</a></h2>
 {% for item in news %}
 {% if loop.index <= 5 %}
 <div class="news-entry">
