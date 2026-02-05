@@ -30,8 +30,8 @@ years:
         arXiv: 
         img: wacv2026a.png
 
-      - name: arxiv2024a
-        key: arxiv2024a
+      - name: tmm2026a
+        key: tmm2026a
         title: "Imperceptible Protection Against Style Imitation from Diffusion Models"
         authors:
             - name: Namhyuk Ahn
@@ -45,10 +45,11 @@ years:
               link: https://sites.google.com/view/shnam/
         venue: IEEE Transactions on Multimedia (TMM), IF=9.7 (JCR Top 5%) (accepted)
         arXiv: https://arxiv.org/abs/2403.19254
-        img: tmm2025a.png
+        pdf: https://doi.org/10.1109/TMM.2026.3660109
+        img: tmm2026a.png
 
-      - name: arxiv2023a
-        key: arxiv2023a
+      - name: eswa2026a
+        key: eswa2026a
         title: "DiffBlender: Composable and Versatile Multimodal Text-to-Image Diffusion Models"
         authors:
             - name: Sungnyun Kim
@@ -65,7 +66,7 @@ years:
         project: https://sungnyun.github.io/diffblender
         code: https://github.com/sungnyun/diffblender
         pdf: https://doi.org/10.1016/j.eswa.2025.129345
-        img: arxiv2023a.png
+        img: eswa2026a.png
   - year: 2025
     papers:
       - name: cvpr2025a
