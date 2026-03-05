@@ -5,12 +5,12 @@ years:
         key: icassp2026a
         title: "Compositional Image Synthesis with Inference-Time Scaling"
         authors:
-            - name: Minsuk Ji*
-              link: https://scholar.google.com/citations?user=Fzen5FYAAAAJ
-            - name: Sanghyeok Lee*
-              link: https://github.com/lexxsh
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
+          - name: Minsuk Ji*
+            link: https://scholar.google.com/citations?user=Fzen5FYAAAAJ
+          - name: Sanghyeok Lee*
+            link: https://github.com/lexxsh
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
         venue: ICASSP 2026
         arXiv: https://arxiv.org/abs/2510.24133
         project: https://minsuk-ji.github.io/ReFocus/
@@ -21,28 +21,28 @@ years:
         key: wacv2026a
         title: "T2LF: LLM-Guided Multimodal Diffusion for Text-to-Light Field Synthesis"
         authors:
-            - name: Soyoung Yoon
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: In Kyu Park
-              link: https://sites.google.com/view/vcl-lab/home
-        venue: WACV 2026
-        arXiv: 
+          - name: Soyoung Yoon
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: In Kyu Park
+            link: https://sites.google.com/view/vcl-lab/home
+        venue: WACV 2026 (oral presentation)
+        pdf: https://openaccess.thecvf.com/content/WACV2026/html/Yoon_T2LF_LLM-Guided_Multimodal_Diffusion_for_Text-to-Light_Field_Synthesis_WACV_2026_paper.html
         img: wacv2026a.png
 
       - name: tmm2026a
         key: tmm2026a
         title: "Imperceptible Protection Against Style Imitation from Diffusion Models"
         authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Wonhyuk Ahn
-              link: https://scholar.google.com/citations?user=SvpXOqsAAAAJ
-            - name: KiYoon Yoo
-              link: https://kiyoonyoo.github.io
-            - name: Daesik Kim
-            - name: Seung-Hun Nam
-              link: https://sites.google.com/view/shnam/
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Wonhyuk Ahn
+            link: https://scholar.google.com/citations?user=SvpXOqsAAAAJ
+          - name: KiYoon Yoo
+            link: https://kiyoonyoo.github.io
+          - name: Daesik Kim
+          - name: Seung-Hun Nam
+            link: https://sites.google.com/view/shnam/
         venue: IEEE Transactions on Multimedia (TMM), IF=9.7 (JCR Top 5%) (accepted)
         arXiv: https://arxiv.org/abs/2403.19254
         pdf: https://doi.org/10.1109/TMM.2026.3660109
@@ -52,15 +52,15 @@ years:
         key: eswa2026a
         title: "DiffBlender: Composable and Versatile Multimodal Text-to-Image Diffusion Models"
         authors:
-            - name: Sungnyun Kim
-              link: https://bit.ly/sungnyunkim
-            - name: Junsoo Lee
-              link: https://ssuhan.github.io/
-            - name: Kibeom Hong
-              link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
-            - name: Daesik Kim
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
+          - name: Sungnyun Kim
+            link: https://bit.ly/sungnyunkim
+          - name: Junsoo Lee
+            link: https://ssuhan.github.io/
+          - name: Kibeom Hong
+            link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
+          - name: Daesik Kim
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
         venue: Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)
         arXiv: https://arxiv.org/abs/2305.15194
         project: https://sungnyun.github.io/diffblender
@@ -73,29 +73,29 @@ years:
         key: cvpr2025a
         title: "Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models"
         authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: KiYoon Yoo
-              link: https://kiyoonyoo.github.io
-            - name: Wonhyuk Ahn
-              link: https://scholar.google.com/citations?user=SvpXOqsAAAAJ
-            - name: Daesik Kim
-            - name: Seung-Hun Nam
-              link: https://sites.google.com/view/shnam/
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: KiYoon Yoo
+            link: https://kiyoonyoo.github.io
+          - name: Wonhyuk Ahn
+            link: https://scholar.google.com/citations?user=SvpXOqsAAAAJ
+          - name: Daesik Kim
+          - name: Seung-Hun Nam
+            link: https://sites.google.com/view/shnam/
         venue: CVPR 2025
         project: https://webtoon.github.io/impasto/
         arXiv: https://arxiv.org/abs/2412.11423
         img: cvpr2025a.png
-      
+
       - name: eswa2025a
         key: eswa2025a
         title: "Magnitude Attention-based Dynamic Pruning"
         authors:
-            - name: Jihye Back
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Jangho Kim
-              link: https://sites.google.com/view/ml-pr
+          - name: Jihye Back
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Jangho Kim
+            link: https://sites.google.com/view/ml-pr
         venue: Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)
         arXiv: https://arxiv.org/abs/2306.05056
         pdf: https://doi.org/10.1016/j.eswa.2025.126957
@@ -105,11 +105,11 @@ years:
         key: access2025a
         title: "CutMAA: Motion-Aware Data Augmentation for Light Field Super-Resolution"
         authors:
-            - name: Sojin Yun
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: In Kyu Park
-              link: https://sites.google.com/view/vcl-lab/home
+          - name: Sojin Yun
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: In Kyu Park
+            link: https://sites.google.com/view/vcl-lab/home
         venue: IEEE Access, IF=3.6 (JCR Q2)
         pdf: https://ieeexplore.ieee.org/document/10877822
         img: access2025a.png
@@ -118,37 +118,37 @@ years:
         key: iccvw2025a
         title: "A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models"
         authors:
-            - name: Hyunwook Jo
-            - name: Jiseung Maeng
-            - name: Jun Hyung Park
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: In Kyu Park
-              link: https://sites.google.com/view/vcl-lab/home
+          - name: Hyunwook Jo
+          - name: Jiseung Maeng
+          - name: Jun Hyung Park
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: In Kyu Park
+            link: https://sites.google.com/view/vcl-lab/home
         venue: ICCV Workshop 2025
         code: https://github.com/ugiugi0823/ICCVW-RLI
-        pdf: https://openaccess.thecvf.com/content/ICCV2025W/MMFM/papers/Jo_A_Plug-and-Play_Approach_for_Robust_Image_Editing_in_Text-to-Image_Diffusion_ICCVW_2025_paper.pdf 
+        pdf: https://openaccess.thecvf.com/content/ICCV2025W/MMFM/papers/Jo_A_Plug-and-Play_Approach_for_Robust_Image_Editing_in_Text-to-Image_Diffusion_ICCVW_2025_paper.pdf
         img: iccvw2025a.png
 
   - year: 2024
-    papers:  
+    papers:
       - name: aaai2024a
         key: aaai2024a
         title: "DreamStyler: Paint by Style Inversion with Text-to-Image Diffusion Models"
         authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Junsoo Lee
-              link: https://ssuhan.github.io/
-            - name: Chunggi Lee
-              link: https://chungyi347.github.io/
-            - name: Kunhee Kim
-              link: https://kunheek.github.io
-            - name: Daesik Kim
-            - name: Seung-Hun Nam
-              link: https://sites.google.com/view/shnam/
-            - name: Kibeom Hong
-              link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Junsoo Lee
+            link: https://ssuhan.github.io/
+          - name: Chunggi Lee
+            link: https://chungyi347.github.io/
+          - name: Kunhee Kim
+            link: https://kunheek.github.io
+          - name: Daesik Kim
+          - name: Seung-Hun Nam
+            link: https://sites.google.com/view/shnam/
+          - name: Kibeom Hong
+            link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
         venue: AAAI 2024
         project: https://nmhkahn.github.io/dreamstyler
         arXiv: https://arxiv.org/abs/2309.06933
@@ -159,12 +159,12 @@ years:
         key: ijcv2024a
         title: "Data Augmentation for Low-Level Vision: CutBlur and Mixture-of-Augmentation"
         authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Jaejun Yoo
-              link: https://sites.google.com/view/jaejunyoo
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Jaejun Yoo
+            link: https://sites.google.com/view/jaejunyoo
+          - name: Kyung-Ah Sohn
+            link: https://sites.google.com/site/kasohn/home
         venue: International Journal of Computer Vision (IJCV), IF=9.3 (JCR Top 10%)
         pdf: https://link.springer.com/article/10.1007/s11263-023-01970-z
         img: ijcv2024a.png
@@ -173,11 +173,11 @@ years:
         key: eswa2024a
         title: "Decomposing Texture and Semantics for Out-of-distribution Detection"
         authors:
-            - name: Jeong-Hyeon Moon*
-            - name: Namhyuk Ahn*
-              link: https://nmhkahn.github.io
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
+          - name: Jeong-Hyeon Moon*
+          - name: Namhyuk Ahn*
+            link: https://nmhkahn.github.io
+          - name: Kyung-Ah Sohn
+            link: https://sites.google.com/site/kasohn/home
         venue: Expert Systems with Applications (ESWA), IF=7.5 (JCR Top 10%)
         pdf: https://www.sciencedirect.com/science/article/pii/S095741742302331X
         img: eswa2024a.png
@@ -188,14 +188,14 @@ years:
         key: cvpr2023a
         title: "Interactive Cartoonization with Controllable Perceptual Factors"
         authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Patrick Kwon
-              link: https://yj7082126.github.io
-            - name: Jihye Back
-            - name: Kibeom Hong
-              link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
-            - name: Seungkwon Kim
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Patrick Kwon
+            link: https://yj7082126.github.io
+          - name: Jihye Back
+          - name: Kibeom Hong
+            link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
+          - name: Seungkwon Kim
         venue: CVPR 2023
         arXiv: https://arxiv.org/abs/2212.09555
         img: cvpr2023a.png
@@ -204,23 +204,23 @@ years:
         key: iccv2023a
         title: "AesPA-Net: Aesthetic Pattern-Aware Style Transfer Networks"
         authors:
-            - name: Kibeom Hong
-              link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
-            - name: Seogkyu Jeon
-              link: https://scholar.google.com/citations?user=w-byizkAAAAJ
-            - name: Junsoo Lee
-              link: https://ssuhan.github.io/
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Kunhee Kim
-              link: https://kunheek.github.io
-            - name: Pilhyeon Lee
-              link: https://sites.google.com/view/mailab-inha
-            - name: Daesik Kim
-            - name: Youngjung Uh
-              link: https://vilab.yonsei.ac.kr
-            - name: Hyeran Byun
-              link: https://scholar.google.com/citations?user=F_NI-dcAAAAJ
+          - name: Kibeom Hong
+            link: https://sites.google.com/sookmyung.ac.kr/aiv-lab-smwu
+          - name: Seogkyu Jeon
+            link: https://scholar.google.com/citations?user=w-byizkAAAAJ
+          - name: Junsoo Lee
+            link: https://ssuhan.github.io/
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Kunhee Kim
+            link: https://kunheek.github.io
+          - name: Pilhyeon Lee
+            link: https://sites.google.com/view/mailab-inha
+          - name: Daesik Kim
+          - name: Youngjung Uh
+            link: https://vilab.yonsei.ac.kr
+          - name: Hyeran Byun
+            link: https://scholar.google.com/citations?user=F_NI-dcAAAAJ
         venue: ICCV 2023
         arXiv: https://arxiv.org/abs/2307.09724
         code: https://github.com/Kibeom-Hong/AesPA-Net
@@ -230,14 +230,14 @@ years:
         key: cvprw2023a
         title: "LPMM: Intuitive Pose Control for Neural Talking-Head Models via Landmark-Parameter Morphable Model"
         authors:
-            - name: Kwangho Lee*
-            - name: Patrick Kwon*
-              link: https://yj7082126.github.io
-            - name: Myung Ki Lee
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Junsoo Lee
-              link: https://ssuhan.github.io/
+          - name: Kwangho Lee*
+          - name: Patrick Kwon*
+            link: https://yj7082126.github.io
+          - name: Myung Ki Lee
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Junsoo Lee
+            link: https://ssuhan.github.io/
         venue: CVPR Workshop 2023
         arXiv: https://arxiv.org/abs/2305.10456
         img: cvprw2023a.png
@@ -248,10 +248,10 @@ years:
         key: satc2022a
         title: "WebtoonMe: A Data-Centric Approach for Full-Body Portrait Stylization"
         authors:
-            - name: Jihye Back*
-            - name: Seungkwon Kim*
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
+          - name: Jihye Back*
+          - name: Seungkwon Kim*
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
         venue: SIGGRAPH Asia TC 2022
         arXiv: https://arxiv.org/abs/2210.10335
         project: https://webtoon.github.io/WebtoonMe/
@@ -261,12 +261,12 @@ years:
         key: pr2022a
         title: "Efficient Deep Neural Network for Photo-Realistic Image Super-Resolution"
         authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Byungkon Kang
-              link: https://sites.google.com/view/byungkon/home
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Byungkon Kang
+            link: https://sites.google.com/view/byungkon/home
+          - name: Kyung-Ah Sohn
+            link: https://sites.google.com/site/kasohn/home
         venue: Pattern Recognition, IF=7.6 (JCR Top 10%)
         arXiv: https://arxiv.org/abs/1903.02240
         code: https://github.com/nmhkahn/PCARN-pytorch
@@ -276,14 +276,14 @@ years:
         key: cvprw2022b
         title: "Cross-Domain Style Mixing for Face Cartoonization"
         authors:
-            - name: Seungkwon Kim
-            - name: Chaeheon Gwak
-            - name: Dohyun Kim
-            - name: Kwangho Lee
-            - name: Jihye Back
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Daesik Kim
+          - name: Seungkwon Kim
+          - name: Chaeheon Gwak
+          - name: Dohyun Kim
+          - name: Kwangho Lee
+          - name: Jihye Back
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Daesik Kim
         venue: CVPR Workshop 2022
         arXiv: https://arxiv.org/abs/2205.12450
         img: cvprw2022b.png
@@ -292,12 +292,12 @@ years:
         key: cvprw2022a
         title: "Exploiting Distortion Information for Multi-Degraded Image Restoration"
         authors:
-            - name: Wooksu Shin
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Jeong-Hyeon Moon
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
+          - name: Wooksu Shin
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Jeong-Hyeon Moon
+          - name: Kyung-Ah Sohn
+            link: https://sites.google.com/site/kasohn/home
         venue: CVPR Workshop 2022
         pdf: https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Shin_Exploiting_Distortion_Information_for_Multi-Degraded_Image_Restoration_CVPRW_2022_paper.pdf
         img: cvprw2022a.png
@@ -308,12 +308,12 @@ years:
         key: iclrw2021a
         title: "What Is Wrong With One-Class Anomaly Detection?"
         authors:
-            - name: JuneKyu Park
-            - name: Jeong-Hyeon Moon
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
+          - name: JuneKyu Park
+          - name: Jeong-Hyeon Moon
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Kyung-Ah Sohn
+            link: https://sites.google.com/site/kasohn/home
         venue: ICLR Workshop 2021
         arXiv: https://arxiv.org/abs/2104.09793
         code: https://github.com/JuneKyu/CLAD
@@ -325,12 +325,12 @@ years:
         key: cvpr2020a
         title: "Rethinking Data Augmentation for Image Super-Resolution: A Comprehensive Analysis and a New Strategy"
         authors:
-            - name: Jaejun Yoo*
-              link: https://sites.google.com/view/jaejunyoo
-            - name: Namhyuk Ahn*
-              link: https://nmhkahn.github.io
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
+          - name: Jaejun Yoo*
+            link: https://sites.google.com/view/jaejunyoo
+          - name: Namhyuk Ahn*
+            link: https://nmhkahn.github.io
+          - name: Kyung-Ah Sohn
+            link: https://sites.google.com/site/kasohn/home
         venue: CVPR 2020
         arXiv: https://arxiv.org/abs/2004.00448
         code: https://github.com/clovaai/cutblur
@@ -340,11 +340,11 @@ years:
         key: accv2020a
         title: "Restoring Spatially-Heterogeneous Distortions Using Mixture of Experts Network"
         authors:
-            - name: Sijin Kim*
-            - name: Namhyuk Ahn*
-              link: https://nmhkahn.github.io
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
+          - name: Sijin Kim*
+          - name: Namhyuk Ahn*
+            link: https://nmhkahn.github.io
+          - name: Kyung-Ah Sohn
+            link: https://sites.google.com/site/kasohn/home
         venue: ACCV 2020
         arXiv: https://arxiv.org/abs/2009.14563
         img: accv2020a.png
@@ -353,12 +353,12 @@ years:
         key: cvprw2020a
         title: "SimUSR: A Simple but Strong Baseline for Unsupervised Image Super-Resolution"
         authors:
-            - name: Namhyuk Ahn*
-              link: https://nmhkahn.github.io
-            - name: Jaejun Yoo*
-              link: https://sites.google.com/view/jaejunyoo
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
+          - name: Namhyuk Ahn*
+            link: https://nmhkahn.github.io
+          - name: Jaejun Yoo*
+            link: https://sites.google.com/view/jaejunyoo
+          - name: Kyung-Ah Sohn
+            link: https://sites.google.com/site/kasohn/home
         venue: CVPR Workshop 2020
         arXiv: https://arxiv.org/abs/2004.11020
         img: cvprw2020a.png
@@ -369,12 +369,12 @@ years:
         key: eccv2018a
         title: "Fast, Accurate, and Lightweight Super-Resolution With Cascading Residual Network"
         authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Byungkon Kang
-              link: https://sites.google.com/view/byungkon/home
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Byungkon Kang
+            link: https://sites.google.com/view/byungkon/home
+          - name: Kyung-Ah Sohn
+            link: https://sites.google.com/site/kasohn/home
         venue: ECCV 2018
         arXiv: https://arxiv.org/abs/1803.08664
         code: https://github.com/nmhkahn/CARN-pytorch
@@ -384,16 +384,15 @@ years:
         key: cvprw2018a
         title: "Image Super-Resolution via Progressive Cascading Residual Network"
         authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Byungkon Kang
-              link: https://sites.google.com/view/byungkon/home
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Byungkon Kang
+            link: https://sites.google.com/view/byungkon/home
+          - name: Kyung-Ah Sohn
+            link: https://sites.google.com/site/kasohn/home
         venue: CVPR Workshop 2018
         pdf: http://openaccess.thecvf.com/content_cvpr_2018_Workshop/papers/w13/Ahn_Image_Super-Resolution_via_CVPR_2018_paper.pdf
         img: cvprw2018a.png
-  
 
   - year: 2017
     papers:
@@ -401,12 +400,12 @@ years:
         key: acpr2017a
         title: "Image Distortion Detection Using Convolutional Neural Network"
         authors:
-            - name: Namhyuk Ahn
-              link: https://nmhkahn.github.io
-            - name: Byungkon Kang
-              link: https://sites.google.com/view/byungkon/home
-            - name: Kyung-Ah Sohn
-              link: https://sites.google.com/site/kasohn/home
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+          - name: Byungkon Kang
+            link: https://sites.google.com/view/byungkon/home
+          - name: Kyung-Ah Sohn
+            link: https://sites.google.com/site/kasohn/home
         venue: ACPR 2017
         arXiv: https://arxiv.org/abs/1805.10881
         img: acpr2017a.png

@@ -16,6 +16,10 @@ master:
     email: wlalstjr471@gmail.com
     scholar: https://scholar.google.com/citations?user=Fzen5FYAAAAJ
 
+  - name: Jihye Kang (강지혜)
+    type: M.S. Student
+    email: rkdwlgp@inha.edu
+
   - name: Sungwoo Hwang (황성우)
     type: M.S. Student (co-advised w/ <a href="https://sites.google.com/view/vcl-lab/home?authuser=0">In Kyu Park</a>)
     email: hwelly1522@naver.com
@@ -28,13 +32,18 @@ undergrads:
       web: https://github.com/lexxsh
       scholar: https://scholar.google.com/citations?user=Z1JjvdMAAAAJ
 
-    - name: Jihye Kang (강지혜)
-      type: Undergraduate Student
-      email: rkdwlgp@inha.edu
-
     - name: Jiwon Park (박지원)
       type: Undergraduate Student
       email: pjw12211778@inha.edu
+      
+    - name: 민륜기
+      type: Undergraduate Student
+      email: minrg917@inha.edu
+
+    - name: 전강표
+      type: Undergraduate Student
+      email: jkp030424@naver.com
+
       
 former_graduates:
     - name: xxx
