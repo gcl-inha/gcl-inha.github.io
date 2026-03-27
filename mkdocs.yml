@@ -23,6 +23,9 @@ nav:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/locale-redirect.js
+
 markdown_extensions: 
   - attr_list
   - md_in_html
