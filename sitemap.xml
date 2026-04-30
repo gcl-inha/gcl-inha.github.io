@@ -50,6 +50,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/research/"/>
     </url>
     <url>
+        <loc>https://gcl-inha.github.io/teaching/</loc>
+        <lastmod>2026-04-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/teaching/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/teaching/"/>
+    </url>
+    <url>
         <loc>https://gcl-inha.github.io/en/</loc>
         <lastmod>2026-04-30</lastmod>
         <changefreq>daily</changefreq>
@@ -97,5 +104,12 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/research/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/research/"/>
+    </url>
+    <url>
+        <loc>https://gcl-inha.github.io/en/teaching/</loc>
+        <lastmod>2026-04-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gcl-inha.github.io/en/teaching/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://gcl-inha.github.io/teaching/"/>
     </url>
 </urlset>
