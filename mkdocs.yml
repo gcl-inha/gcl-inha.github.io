@@ -18,6 +18,7 @@ nav:
   - Research: research.md
   - Publications: publications.md
   - Projects: projects.md
+  - Teaching: teaching.md
   - Join Us: join-us.md
 
 extra_css:
@@ -69,5 +70,6 @@ plugins:
         - research_highlights: data/research_highlights.yml
         - news: data/news.yml
         - projects: data/projects.yml
+        - teaching: data/teaching.yml
 
 copyright: Copyright &copy; 2025 -  Generative Computing Lab at Inha University

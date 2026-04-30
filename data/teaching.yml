@@ -1,0 +1,33 @@
+terms:
+  - term: "2026-1"
+    courses:
+      - name: "Large Language Models"
+        link: "https://gcl-inha.github.io/ece7115/"
+        note: "Graduate"
+      - name: "Multimedia"
+
+  - term: "2025-2"
+    courses:
+      - name: "Deep Learning"
+      - name: "Python Programming"
+      - name: "Multimedia"
+        note: "English"
+
+  - term: "2025-1"
+    courses:
+      - name: "Multimedia"
+      - name: "Vision-Language Models"
+        note: "Graduate"
+      - name: "Multimodal AI"
+        note: "Graduate"
+
+  - term: "2024-2"
+    courses:
+      - name: "Computer Graphics"
+      - name: "Creative Design for Engineering"
+
+  - term: "2017"
+    courses:
+      - name: "Deep Learning and its Applications"
+        link: "https://github.com/nmhkahn/deep_learning_tutorial"
+        note: "at FastCampus"

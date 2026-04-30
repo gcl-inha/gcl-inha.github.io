@@ -153,6 +153,32 @@
     background-clip: padding-box
 }
 
+/* teaching.md */
+.md-typeset .teaching-content {
+    margin-top: 2em;
+}
+
+.md-typeset .teaching-content > p {
+    margin-top: 1.2em;
+    margin-bottom: 0.2em;
+    font-size: 1.05em;
+}
+
+.md-typeset .teaching-content > p:first-child {
+    margin-top: 0;
+}
+
+.md-typeset ul.teaching-courses {
+    list-style: disc;
+    margin: 0.2em 0 0.8em 1.2em;
+}
+
+.md-typeset ul.teaching-courses li {
+    margin: 0.15em 0;
+    line-height: 1.6;
+}
+
+
 /* projects.md */
 .project-thumbnail-cell {
     width: 300px;
