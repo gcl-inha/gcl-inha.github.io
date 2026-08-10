@@ -23,36 +23,30 @@ master:
   - name: Sungwoo Hwang (황성우)
     type: M.S. Student (co-advised w/ <a href="https://sites.google.com/view/vcl-lab/home?authuser=0">In Kyu Park</a>)
     email: hwelly1522@naver.com
-  
- 
+
 undergrads:
-    - name: Sanghyeok Lee (이상혁)
-      type: Undergraduate Student
-      email: john8538@naver.com
-      web: https://github.com/lexxsh
-      scholar: https://scholar.google.com/citations?user=Z1JjvdMAAAAJ
+  - name: Sanghyeok Lee (이상혁)
+    type: Undergraduate Student
+    email: john8538@naver.com
+    web: https://github.com/lexxsh
+    scholar: https://scholar.google.com/citations?user=Z1JjvdMAAAAJ
 
-    - name: Jiwon Park (박지원)
-      type: Undergraduate Student
-      email: pjw12211778@inha.edu
-      
-    - name: 민륜기
-      type: Undergraduate Student
-      email: minrg917@inha.edu
+  - name: Jiwon Park (박지원)
+    type: Undergraduate Student
+    email: pjw12211778@inha.edu
 
-    - name: 전강표
-      type: Undergraduate Student
-      email: jkp030424@naver.com
+  - name: Suhyun Park (박수현)
+    type: Undergraduate Student
+    email: suhyun89@inha.edu
 
-      
 former_graduates:
-    - name: xxx
-      type: M.S. Student
-      email: 
-      web: 
-      now: 
+  - name: xxx
+    type: M.S. Student
+    email:
+    web:
+    now:
 
 former_undergrads:
-    - name: Yerin Kim (김예린)
-    - name: Minju Kim (김민주)
-    - name: Jaeyong Lee (이재용)
+  - name: Yerin Kim (김예린)
+  - name: Minju Kim (김민주)
+  - name: Jaeyong Lee (이재용)

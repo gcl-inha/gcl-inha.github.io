@@ -1,6 +1,20 @@
 years:
   - year: 2026
     papers:
+      - name: arxiv2026a
+        key: arxiv2026a
+        title: "StyleComposer: Training-Free Multi-Reference Style Composition"
+        authors:
+          - name: Sanghyeok Lee
+            link: https://github.com/lexxsh
+          - name: Jihye Kang
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+        venue: arXiv preprint:2608.05213
+        arXiv: https://arxiv.org/abs/2608.05213
+        project: https://lexxsh.github.io/StyleComposer/
+        img: arxiv2026a.png
+
       - name: icassp2026a
         key: icassp2026a
         title: "Compositional Image Synthesis with Inference-Time Scaling"
@@ -26,7 +40,7 @@ years:
             link: https://nmhkahn.github.io
           - name: In Kyu Park
             link: https://sites.google.com/view/vcl-lab/home
-        venue: WACV 2026 (Best Paper Award Finalist)
+        venue: WACV 2026 (Best Paper Award Finalist; 13/832 ≈ 1.6%)
         pdf: https://openaccess.thecvf.com/content/WACV2026/html/Yoon_T2LF_LLM-Guided_Multimodal_Diffusion_for_Text-to-Light_Field_Synthesis_WACV_2026_paper.html
         img: wacv2026a.png
 

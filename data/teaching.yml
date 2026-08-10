@@ -1,4 +1,11 @@
 terms:
+  - term: "2026-2"
+    cources:
+      - name: "Deep Learning"
+      - name: "Python Programming"
+      - name: "Multimedia"
+        note: "English"
+
   - term: "2026-1"
     courses:
       - name: "Large Language Models"
