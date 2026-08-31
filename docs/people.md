@@ -113,7 +113,7 @@ hide:
 <div class="grid" markdown>
 {% for item in people.former_undergrads %}
 <div class="card" markdown>
-__{{ item.name }}__
+{% if item.web %}<a class="fg-color-dark" href="{{ item.web }}" target="_blank">__{{ item.name }}__</a>{% else %}__{{ item.name }}__{% endif %}{% if item.now %}<br>Now at {{ item.now }}{% endif %}{% if item.web %}<br><a class="fg-color-dark" href="{{ item.web }}" target="_blank">:fontawesome-solid-house:</a>{% endif %}
 </div>
 {% endfor %}
 </div>

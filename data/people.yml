@@ -25,12 +25,6 @@ master:
     email: hwelly1522@naver.com
 
 undergrads:
-  - name: Sanghyeok Lee (이상혁)
-    type: Undergraduate Student
-    email: john8538@naver.com
-    web: https://github.com/lexxsh
-    scholar: https://scholar.google.com/citations?user=Z1JjvdMAAAAJ
-
   - name: Jiwon Park (박지원)
     type: Undergraduate Student
     email: pjw12211778@inha.edu
@@ -38,6 +32,14 @@ undergrads:
   - name: Suhyun Park (박수현)
     type: Undergraduate Student
     email: suhyun89@inha.edu
+
+  - name: Jiwon Sohn (손지원)
+    type: Undergraduate Student
+    email: sjon2001@naver.com
+
+  - name: Taehyun Kim (김태현)
+    type: Undergraduate Student
+    email: rlaxogus9935@gmail.com
 
 former_graduates:
   - name: xxx
@@ -50,3 +52,6 @@ former_undergrads:
   - name: Yerin Kim (김예린)
   - name: Minju Kim (김민주)
   - name: Jaeyong Lee (이재용)
+  - name: Sanghyeok Lee (이상혁)
+    web: https://github.com/lexxsh
+    now: UNIST

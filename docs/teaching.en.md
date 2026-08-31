@@ -8,18 +8,19 @@ hide:
 
 <div class="teaching-content" markdown>
 
-{% for sem in teaching.terms %}
-**{{ sem.term }}**{% if sem.upcoming %} <em>(Upcoming)</em>{% endif %}
+{% for g in teaching.groups %}
+**{{ g.title }}**
 
 <ul class="teaching-courses">
-{%- for c in sem.courses %}
+{%- for c in g.courses %}
   <li>
     {%- if c.link -%}
       <a href="{{ c.link }}" target="_blank">{{ c.name }}</a>
     {%- else -%}
       {{ c.name }}
     {%- endif -%}
-    {%- if c.note %} ({{ c.note }}){% endif -%}
+    {%- if c.note %} <span class="teaching-note">({{ c.note }})</span>{% endif %}
+    <span class="teaching-term">{{ c.term }}</span>
   </li>
 {%- endfor %}
 </ul>

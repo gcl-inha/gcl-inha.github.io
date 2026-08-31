@@ -19,10 +19,10 @@ hide:
 
 {% for item in projects.ongoing %}
 <div class="card" markdown>
-<div class="project-thumbnail-cell" markdown>
+{% if item.img %}<div class="project-thumbnail-cell" markdown>
 <img class="project-thumbnail" src="/assets/projects/{{ item.img }}" markdown>
 </div>
-<div class="project-description-cell" markdown>
+{% endif %}<div class="project-description-cell{% if not item.img %} project-description-full{% endif %}" markdown>
 __{{ item.ko }}__
 <br>
 {{ item.en }}
@@ -43,10 +43,10 @@ __{{ item.ko }}__
 
 {% for item in projects.completed %}
 <div class="card" markdown>
-<div class="project-thumbnail-cell" markdown>
+{% if item.img %}<div class="project-thumbnail-cell" markdown>
 <img class="project-thumbnail" src="/assets/projects/{{ item.img }}" markdown>
 </div>
-<div class="project-description-cell" markdown>
+{% endif %}<div class="project-description-cell{% if not item.img %} project-description-full{% endif %}" markdown>
 __{{ item.ko }}__
 <br>
 {{ item.en }}
@@ -62,4 +62,3 @@ __{{ item.ko }}__
 
 
 <br />
-
