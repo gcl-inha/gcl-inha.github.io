@@ -23,6 +23,8 @@ master:
   - name: Sungwoo Hwang (황성우)
     type: M.S. Student (co-advised w/ <a href="https://sites.google.com/view/vcl-lab/home?authuser=0">In Kyu Park</a>)
     email: hwelly1522@naver.com
+    web: https://sangreal0616.github.io
+    linkedin: https://www.linkedin.com/in/sung-woo-hwang-6a5749332
 
 undergrads:
   - name: Jiwon Park (박지원)
@@ -33,13 +35,13 @@ undergrads:
     type: Undergraduate Student
     email: suhyun89@inha.edu
 
-  - name: Jiwon Sohn (손지원)
-    type: Undergraduate Student
-    email: sjon2001@naver.com
-
   - name: Taehyun Kim (김태현)
     type: Undergraduate Student
     email: rlaxogus9935@gmail.com
+
+  - name: Jiwoo Bak (박지우)
+    type: Undergraduate Student
+    email: pjw125@cju.ac.kr
 
 former_graduates:
   - name: xxx
@@ -49,9 +51,13 @@ former_graduates:
     now:
 
 former_undergrads:
+  - name: Sanghyeok Lee (이상혁)
+    web: https://lexxsh.github.io
+    scholar: https://scholar.google.com/citations?user=Z1JjvdMAAAAJ
+    linkedin: https://www.linkedin.com/in/lexxsh
+    cv: https://lexxsh.github.io/assets/LSH_CV.pdf
+    now: UNIST
   - name: Yerin Kim (김예린)
   - name: Minju Kim (김민주)
   - name: Jaeyong Lee (이재용)
-  - name: Sanghyeok Lee (이상혁)
-    web: https://github.com/lexxsh
-    now: UNIST
+  - name: Jiwon Sohn (손지원)

@@ -113,7 +113,7 @@ hide:
 <div class="grid" markdown>
 {% for item in people.former_undergrads %}
 <div class="card" markdown>
-{% if item.web %}<a class="fg-color-dark" href="{{ item.web }}" target="_blank">__{{ item.name }}__</a>{% else %}__{{ item.name }}__{% endif %}{% if item.now %}<br>Now at {{ item.now }}{% endif %}{% if item.web %}<br><a class="fg-color-dark" href="{{ item.web }}" target="_blank">:fontawesome-solid-house:</a>{% endif %}
+{% if item.web %}<a class="fg-color-dark" href="{{ item.web }}" target="_blank">__{{ item.name }}__</a>{% else %}__{{ item.name }}__{% endif %}{% if item.now %}<br>Now at {{ item.now }}{% endif %}{% if item.web or item.twitter or item.linkedin or item.github or item.scholar or item.cv %}<br>{% endif %}{% if item.web %}<a class="fg-color-dark" href="{{ item.web }}" target="_blank">:fontawesome-solid-house:</a>&nbsp; {% endif %}{% if item.twitter %}<a class="fg-color-dark" href="{{ item.twitter }}" target="_blank">:fontawesome-brands-x-twitter:</a>&nbsp; {% endif %}{% if item.linkedin %}<a class="fg-color-dark" href="{{ item.linkedin }}" target="_blank">:fontawesome-brands-linkedin:</a>&nbsp; {% endif %}{% if item.github %}<a class="fg-color-dark" href="{{ item.github }}" target="_blank">:fontawesome-brands-github:</a>&nbsp; {% endif %}{% if item.scholar %}<a class="fg-color-dark" href="{{ item.scholar }}" target="_blank">:fontawesome-brands-google-scholar:</a>&nbsp; {% endif %}{% if item.cv %}<a class="fg-color-dark" href="{{ item.cv }}" target="_blank">:fontawesome-solid-file:</a>&nbsp; {% endif %}
 </div>
 {% endfor %}
 </div>

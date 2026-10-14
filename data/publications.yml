@@ -1,6 +1,31 @@
 years:
   - year: 2026
     papers:
+      - name: neuripsw2026b
+        key: neuripsw2026b
+        title: "Beyond User-Side Defenses: Image Protection in Open-Weight Diffusion Models"
+        authors:
+          - name: Jihye Kang
+          - name: Jiwon Park
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+        venue: NeurIPS Workshop 2026
+        arXiv: https://arxiv.org/abs/2610.16835
+        img: neuripsw2026b.png
+
+      - name: neuripsw2026a
+        key: neuripsw2026a
+        title: "Mean Accuracy Is the Wrong Estimand for a Release Decision"
+        authors:
+          - name: Jaewon Choi
+            link: https://sites.google.com/view/jaewon-choi
+          - name: Jihye Kang
+          - name: Namhyuk Ahn
+            link: https://nmhkahn.github.io
+        venue: NeurIPS Workshop 2026
+        arXiv: https://arxiv.org/abs/2610.16825
+        img: neuripsw2026a.png
+
       - name: arxiv2026a
         key: arxiv2026a
         title: "StyleComposer: Training-Free Multi-Reference Style Composition"
