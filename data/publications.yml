@@ -37,7 +37,7 @@ years:
 
       - name: neuripsw2026a
         key: neuripsw2026a
-        title: "Mean Accuracy Is the Wrong Estimand for a Release Decision"
+        title: "One Checkpoint, Many Runs: Recipe Cards for Fine-Tuned Models"
         authors:
           - name: Jaewon Choi
             link: https://sites.google.com/view/jaewon-choi
