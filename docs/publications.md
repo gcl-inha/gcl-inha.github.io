@@ -23,16 +23,12 @@ hide:
 
 # Publications
 
-{% set ns = namespace(lab_members=[]) %}
+{# Lab members (people.yml) -> homepage link. Priority: web > scholar > github > linkedin.
+    An explicit `link` on an author in publications.yml still overrides this. -#}
+{% set ns = namespace(lab_members={}) %}
 
-{%- if people.professor and people.professor.name -%}
-  {%- set ns.lab_members = ns.lab_members + [ (people.professor.name.split('(')[0] | trim) ] -%}
-{%- endif -%}
-
-{%- for group in [people.phd, people.master, people.undergrads, people.former_graduates, people.former_undergrads] if group -%}
-  {%- for p in group if p.name -%}
-    {%- set ns.lab_members = ns.lab_members + [ (p.name.split('(')[0] | trim) ] -%}
-  {%- endfor -%}
+{%- for p in [people.professor] + (people.phd or []) + (people.master or []) + (people.undergrads or []) + (people.former_graduates or []) + (people.former_undergrads or []) if p and p.name -%}
+  {%- set _ = ns.lab_members.update({ (p.name.split('(')[0] | trim): (p.web or p.scholar or p.github or p.linkedin or '') }) -%}
 {%- endfor -%}
 
 {%- for year in publications.years -%}
@@ -56,8 +52,9 @@ hide:
       {%- set author_key = (author.name | replace('*','') | trim) -%}
 
       {%- if author_key in ns.lab_members -%}
-        {%- if author.link -%}
-          <a class="lab-member" href="{{ author.link }}" target="_blank">{{ author_display }}</a>
+        {%- set member_link = author.link or ns.lab_members[author_key] -%}
+        {%- if member_link -%}
+          <a class="lab-member" href="{{ member_link }}" target="_blank">{{ author_display }}</a>
         {%- else -%}
           <span class="lab-member">{{ author_display }}</span>
         {%- endif -%}
