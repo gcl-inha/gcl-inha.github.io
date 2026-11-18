@@ -1,6 +1,29 @@
 years:
   - year: 2026
     papers:
+      - name: arxiv2026c
+        key: arxiv2026c
+        title: "Fast and Strong Image Protection against Diffusion Personalization"
+        authors:
+          - name: Jiwon Park
+          - name: Jihye Kang
+          - name: Namhyuk Ahn
+        venue: arXiv preprint:2611.22494
+        arXiv: https://arxiv.org/abs/2611.22494
+        img: arxiv2026c.png
+
+      - name: arxiv2026b
+        key: arxiv2026b
+        title: "How Well Is My Artwork Protected? Predicting and Tailoring Protection against Style Mimicry by Personalization"
+        authors:
+          - name: Jihye Kang*
+          - name: Jiwon Park*
+          - name: Sungwoo Hwang
+          - name: Namhyuk Ahn
+        venue: arXiv preprint:2611.22486
+        arXiv: https://arxiv.org/abs/2611.22486
+        img: arxiv2026b.png
+
       - name: neuripsw2026b
         key: neuripsw2026b
         title: "Beyond User-Side Defenses: Image Protection in Open-Weight Diffusion Models"
